@@ -68,7 +68,7 @@ const ModernAgencyBrand = () => {
           &quot;It’s easy for businesses to get lost in the noise of the market, especially when marketing doesn’t seem to pay off. But at Rook, we focus on what works for you. We take the time to understand your unique goals and challenges, then craft a personalized strategy that moves you forward. The results we generate aren’t just numbers—they’re proof of what a tailored approach can do for your brand.&quot;
         </p>
       </div>
-      <div className="separatorSubtile">
+      {/* <div className="separatorSubtile">
         <h2 className="sec-subtile-6">Our Company</h2>
       </div>
       <div className="client__logo">
@@ -95,7 +95,7 @@ const ModernAgencyBrand = () => {
             className="fade_bottom_5 clientImg"
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

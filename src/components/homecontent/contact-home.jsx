@@ -45,14 +45,14 @@ const Contact1 = () => {
                 </h3>
                 <ul>
                   <li>
-                    <a href="tel:+(2)578365379">+(2) 578 - 365 - 379</a>
+                    <a href="tel:+(2)578365379">+91 70927 00022</a>
                   </li>
                   <li>
-                    <a href="mailto:hello@example.com">hello@example.com</a>
+                    <a href="mailto:hello@example.com">empower@rookhq.com</a>
                   </li>
                   <li>
                     <span>
-                      230 Norman Street New York, <br /> QC (USA) H8R 1A1
+                    248, 11th St, Kuberan Nagar Extension,<br /> Kuberan Nagar, Madipakkam, <br />Chennai, Tamil Nadu 600091
                     </span>
                   </li>
                 </ul>
@@ -77,7 +77,7 @@ const Contact1 = () => {
                       <input
                         type="text"
                         name="subject"
-                        placeholder="Subject *"
+                        placeholder="Services of Interest *"
                       />
                     </div>
                   </div>

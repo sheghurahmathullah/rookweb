@@ -1,6 +1,6 @@
 import Head from "next/head";
 import RootLayout from "@/components/common/layout/RootLayout";
-import ServiceHero from "@/components/hero/DigitalAgencyHero";
+import ServiceHero from "@/components/digitalmarketing/banner";
 import Service1 from "@/components/service/Service1";
 import ServiceBrand from "@/components/brand/ServiceBrand";
 import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
@@ -20,7 +20,6 @@ const ServiceDark = () => {
           <ServiceHero />
           <ServiceBrand />
           <Service1 />
-          
           <DigitalAgencyCTA />
         </RootLayout>
       </main>

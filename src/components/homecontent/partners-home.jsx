@@ -12,7 +12,7 @@ import Image from "next/image";
 gsap.registerPlugin(ScrollTrigger);
 
 const DigitalAgencyBrand = () => {
-    const [isHovered1, setIsHovered1] = useState(false);
+    const [isHovered1, setIsHovered1] = useState(false); 
     const [isHovered2, setIsHovered2] = useState(false);
     const [isHovered3, setIsHovered3] = useState(false);
     const [isHovered4, setIsHovered4] = useState(false);
@@ -64,16 +64,13 @@ const DigitalAgencyBrand = () => {
   return (
     <>
       <section className="brand__area">
-        <div className="container g-0 line pt-140 pb-130">
+        <div className="container g-0 line pb-130">
           <span className="line-3"></span>
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
-                <h2 className="sec-sub-title title-anim">Internation Brands</h2>
-                <h3 className="sec-title title-anim">
-                  We are happy to work with global <br />
-                  largest brands
-                </h3>
+                <h2 className="sec-sub-title title-anim">Our Clients and Partners</h2>
+               
               </div>
             </div>
 
