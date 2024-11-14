@@ -6,13 +6,107 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay";
 
-const DesignStudioRollRook = () => {
+const DesignStudioRoll = () => {
   return (
     <>
       <section className="roll__area-2">
-       
+        <div className="roll__slider">
+          <Swiper
+            modules={[FreeMode, Autoplay]}
+            spaceBetween={0}
+            slidesPerView={1}
+            freeMode={true}
+            loop={true}
+            centeredSlides={true}
+            allowTouchMove={false}
+            simulateTouch={false}
+            speed={2000}
+            autoplay={{
+              delay: 1,
+              disableOnInteraction: true,
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 3,
+              },
+              800: {
+                slidesPerView: 3,
+              },
+              1024: {
+                slidesPerView: 4,
+              },
+              1300: {
+                slidesPerView: 5,
+              },
+              1900: {
+                slidesPerView: 8,
+              },
+            }}
+          >
+        <SwiperSlide>
+              <div className="roll__slide">
+                <h2>Website Development</h2>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="roll__slide">
+                <h2>Digital Marketing</h2>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="roll__slide">
+                <h2>Nurturing Automation </h2>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="roll__slide">
+                <h2>GTM - Strategy </h2>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="roll__slide">
+                <h2>Website Development</h2>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="roll__slide">
+                <h2>Digital Marketing</h2>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="roll__slide">
+                <h2>Nurturing Automation </h2>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="roll__slide">
+                <h2>GTM - Strategy </h2>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="roll__slide">
+                <h2>Website Development</h2>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="roll__slide">
+                <h2>Digital Marketing</h2>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="roll__slide">
+                <h2>Nurturing Automation </h2>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="roll__slide">
+                <h2>GTM - Strategy </h2>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </section>
-      <section className="roll__area-3 mb-5">
+      <section className="roll__area-3">
         <div className="roll__slider">
           <Swiper
             modules={[FreeMode, Autoplay]}
@@ -47,26 +141,7 @@ const DesignStudioRollRook = () => {
             }}
             dir="rtl"
           >
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Website Development</h2>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Digital Marketing</h2>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Nurturing Automation </h2>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>GTM - Strategy </h2>
-              </div>
-            </SwiperSlide>
+          
             <SwiperSlide>
               <div className="roll__slide">
                 <h2>Prototyping</h2>
@@ -169,4 +244,4 @@ const DesignStudioRollRook = () => {
   );
 };
 
-export default DesignStudioRollRook;
+export default DesignStudioRoll;

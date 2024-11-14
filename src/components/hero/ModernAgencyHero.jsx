@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger, SplitText } from "@/plugins";
-import Shape23 from "../../../public/assets/imgs/rook/home/rook-logo.svg";
+import Shape23 from "../../../public/assets/imgs/rook/home/Rook-round-logo.png";
 import ScrollDown from "../../../public/assets/imgs/essential-img/scrolldown.svg";
 import Image from "next/image";
 import animationCharCome from "@/lib/utils/animationCharCome";
@@ -66,21 +66,21 @@ const ModernAgencyHero = () => {
     <>
       <section className="hero__area-4 sp-x">
         <div className="hero__content-8">
-          <h2
+          <h2 style={{fontSize: "clamp(30px, 8vw, 100px)"}}
             className="sec-title-4 sec-title-5 animation__char_come"
             ref={charAnim}
           >
-            Empower{" "}
+            Empower Your {" "}
             <Image
               priority
-              width={114}
-              style={{ height: "auto" }}
+              width={100}
+              style={{ height: "100px" }}
               src={Shape23}
               alt="shape"
             />
           </h2>
-          <h2 className="sec-title-4 animation__char_come" ref={charAnim2}>
-            Your Business <span>Digitally</span>
+          <h2 className="sec-title-4 animation__char_come" style={{fontSize: "clamp(30px, 8vw, 100px)"}} ref={charAnim2}> 
+           Business Elevating <br />  Customer Experience  <span>  Digitally</span>
           </h2>
           <div className="scroll-wrapper">
             <div className="scroll-down">

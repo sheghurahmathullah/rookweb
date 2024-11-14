@@ -64,9 +64,19 @@ const ModernAgencyBrand = () => {
         Starting   <span>strong,<br />scaling smart <br />let’s drive your </span> <br />
        Growth forward
         </h2>
-        <p className="client__section__dis fade_bottom_5 text-justify">
-          &quot;It’s easy for businesses to get lost in the noise of the market, especially when marketing doesn’t seem to pay off. But at Rook, we focus on what works for you. We take the time to understand your unique goals and challenges, then craft a personalized strategy that moves you forward. The results we generate aren’t just numbers—they’re proof of what a tailored approach can do for your brand.&quot;
-        </p>
+        <p
+  className="client__section__dis fade_bottom_5 text-justify"
+  style={{
+    paddingTop:"10px",
+    maxHeight: "260px", // Adjust this value to set the maximum height
+    maxWidth: "500px", // Adjust this value to increase the width
+    overflow: "hidden", // Ensures content that exceeds max height is hidden
+    textOverflow: "ellipsis", // Adds ellipsis if text overflows
+    whiteSpace: "normal" // Keeps text in normal paragraph format
+  }}
+>
+  &quot;It’s easy for businesses to get lost in the noise of the market, especially when marketing doesn’t seem to pay off. But at Rook, we focus on what works for you. We take the time to understand your unique goals and challenges, then craft a personalized strategy that moves you forward. The results we generate aren’t just numbers—they’re proof of what a tailored approach can do for your brand.&quot;
+</p>
       </div>
       {/* <div className="separatorSubtile">
         <h2 className="sec-subtile-6">Our Company</h2>

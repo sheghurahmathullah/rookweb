@@ -69,7 +69,7 @@ const DigitalAgencyBrand = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
-                <h2 className="sec-sub-title title-anim">Our Clients and Partners</h2>
+                <h2 className="sec-sub-title title-anim">Trusted By Our Clients</h2>
                
               </div>
             </div>

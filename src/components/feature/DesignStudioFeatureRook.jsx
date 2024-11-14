@@ -59,7 +59,7 @@ const DesignStudioFeatureRook = () => {
   }, []);
   return (
     <>
-      <section className="feature__area-2 pt-42">
+      <section className="feature__area-2 pt-42 pb-100">
         <div className="feature__top">
           <div className="container">
             <div className="row">

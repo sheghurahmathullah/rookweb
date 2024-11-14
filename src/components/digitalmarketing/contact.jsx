@@ -12,7 +12,7 @@ const Contact1 = () => {
   return (
     <>
       <section className="contact__area-6">
-        <div className="container g-0 line pt-120 pb-110">
+        <div className="container g-0 line  pb-110">
           <span className="line-3"></span>
           <div className="row">
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -34,7 +34,7 @@ const Contact1 = () => {
   }}
 >
   {
-    "No matter where you are in your marketing journey, Rook is here to propel you forward. Our expert team will help you unlock growth, uncover new opportunities, and transform your vision into the success story you’ve always envisioned."
+    "Whether you're just starting out or looking to scale, Rook is here to take your brand to the next level. Our expert team will help you drive growth, discover new opportunities, and turn your vision into a digital success story."
   }
 </p>
 
@@ -63,7 +63,7 @@ const Contact1 = () => {
                 >
                   {"What’s the next big step"}
                   <br />
-                  for your brand?
+                  for your digital marketing strategy? 
                 </h3>
                 <ul>
                   <li>
