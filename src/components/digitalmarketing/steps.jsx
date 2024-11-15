@@ -133,7 +133,7 @@ const DigitalMarketingWorkflow = () => {
   <div className="container inner_content">
     <div className="row">
       {/* Left Column: Content */}
-      <div className="col-xxl-6 col-xl-6 col-lg-6">
+      <div className="col-xxl-6 col-xl-6 col-lg-6 text-center">
         <div className="sec-title-wrapper">
           <h2 className="sec-sub-title">
             Step 01
@@ -165,7 +165,7 @@ const DigitalMarketingWorkflow = () => {
   <div className="container inner_content">
     <div className="row">
       {/* Left Column: Content */}
-      <div className="col-xxl-6 col-xl-6 col-lg-6">
+      <div className="col-xxl-6 col-xl-6 col-lg-6 text-center">
         <div className="sec-title-wrapper">
           <h2 className="sec-sub-title">
             Step 02
@@ -201,7 +201,7 @@ const DigitalMarketingWorkflow = () => {
   <div className="container inner_content">
     <div className="row">
       {/* Left Column: Content */}
-      <div className="col-xxl-6 col-xl-6 col-lg-6">
+      <div className="col-xxl-6 col-xl-6 col-lg-6 text-center">
         <div className="sec-title-wrapper">
           <h2 className="sec-sub-title">
             Step 03
@@ -233,7 +233,7 @@ const DigitalMarketingWorkflow = () => {
   <div className="container inner_content">
     <div className="row">
       {/* Left Column: Content */}
-      <div className="col-xxl-6 col-xl-6 col-lg-6">
+      <div className="col-xxl-6 col-xl-6 col-lg-6 text-center">
         <div className="sec-title-wrapper">
           <h2 className="sec-sub-title">
             Step 04

@@ -12,6 +12,7 @@ import StartupAgencyTestimonial from "@/components/testimonial/StartupAgencyTest
 import DigitalMarketingService from "@/components/homecontent/service-home"
 import DigitalAgencyBrand from "@/components/homecontent/partners-home"
 import Contact1 from "@/components/homecontent/contact-home"
+import Tabsection from "@/components/homecontent/tabs-home"
 
 import customThumbFooter from "../../public/assets/imgs/rook/footer.webp"
 
@@ -32,7 +33,8 @@ const ModernAgencyDark = () => {
                     <ModernAgencyPortfolio />
                     <DesignStudioFeatureRook />
                     <DesignStudioRollRook />
-                    <DigitalMarketingService/>
+                    <Tabsection/>
+                    {/* <DigitalMarketingService/> */}
                    
                   
 

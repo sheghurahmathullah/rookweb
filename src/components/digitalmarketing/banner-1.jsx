@@ -33,16 +33,21 @@ const StartupAgencyHero = () => {
         });
 
         gsap.from(split_hero6_title.chars, {
-          duration: 1,
-          x: 70,
-          autoAlpha: 0,
-          stagger: 0.1,
-        });
-        gsap.from(
-          split_hero6_desc.words,
-          { duration: 1, x: 50, autoAlpha: 0, stagger: 0.05 },
-          "-=1"
-        );
+            duration: 0.2, // Minimal duration for very quick animations
+            x: 20, // Reduced distance to make the animation appear smoother and faster
+            autoAlpha: 0,
+            stagger: 0.01, // Minimal stagger for rapid character transitions
+          });
+          gsap.from(
+            split_hero6_desc.words,
+            {
+              duration: 0.2, // Reduced duration for quick transitions
+              x: 15, // Lowered distance for a snappier effect
+              autoAlpha: 0,
+              stagger: 0.008, // Very low stagger for fast word transitions
+            },
+            "-=0.2" // Adjust overlap for minimal sequencing
+          );
         gsap.to(
           heroAnchor.current,
           { opacity: 1, y: 0, duration: 1, ease: "power2.out" },
