@@ -5,6 +5,7 @@ import DigitalMarketingWorkflow from "@/components/digitalmarketing/steps";
 import ServiceElementV3 from "@/components/digitalmarketing/power";
 import DigitalAgencyBrand from "@/components/digitalmarketing/clients";
 import StartupAgencyTestimonial from "@/components/digitalmarketing/testiomonials";
+import StartupAgencyHero from "@/components/digitalmarketing/banner-1";
 import Contact1 from "@/components/digitalmarketing/contact";
 import Service1 from "@/components/service/Service1";
 import ServiceBrand from "@/components/brand/ServiceBrand";
@@ -22,7 +23,8 @@ const ServiceDark = () => {
       </Head>
       <main>
         <RootLayout header="header1" footer="footer3" defaultMode="dark" customNavData={navData} customThumbFooter={customThumbFooter}>
-          <ServiceHero />
+          <StartupAgencyHero/>
+          {/* <ServiceHero /> */}
           <DigitalMarketingWorkflow/>
           <ServiceElementV3/>
           <DigitalAgencyBrand/>

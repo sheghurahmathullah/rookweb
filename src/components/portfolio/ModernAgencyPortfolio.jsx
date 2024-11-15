@@ -141,11 +141,11 @@ const ModernAgencyPortfolio = () => {
               </p>
               <Link
                 href="https://rookhq.com/about"
-                className="blog__btn about_btn"
+                className="blog__btn about_btn" style={{paddingTop:"35px"}}
               >
                 Read More{" "}
                 <span>
-                  <i className="fa-solid fa-arrow-right"></i>
+                  <i className="fa-solid fa-arrow-right" style={{paddingTop:"35px",paddingRight:"20px"}}></i>
                 </span>
               </Link>
             </div>

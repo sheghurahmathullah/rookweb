@@ -67,7 +67,7 @@ const ModernAgencyHero = () => {
       <section className="hero__area-4 sp-x">
         <div className="hero__content-8">
           <h2 style={{fontSize: "clamp(30px, 8vw, 100px)"}}
-            className="sec-title-4 sec-title-5 animation__char_come"
+            className="sec-title-4 sec-title-5 "
             ref={charAnim}
           >
             Empower Your {" "}

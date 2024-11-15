@@ -78,7 +78,7 @@ const DigitalAgencyHero = () => {
                 Get More Customers with Results-Driven Digital Marketing
                  </Link>
                 <div className="hero__title-wrapper">
-                  <h1 className="hero__title"  style={{ fontSize: "clamp(30px, 8vw, 100px)" }}  ref={heroTitle}>
+                  <h1   style={{ fontSize: "clamp(30px, 8vw, 100px)",color:"white" }}  ref={heroTitle}>
                     Digital <br/>Marketing
                   </h1>
                   <p className="hero__sub-title" ref={heroSubTitle}>

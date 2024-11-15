@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ThumbFooter from "../../../public/assets/imgs/thumb/footer.webp";
-import FooterLogoWhite from "../../../public/assets/imgs/rook/rook-logo.webp";
+import FooterLogoWhite from "../../../public/assets/imgs/rook/home/Rook-white.png";
 import Image from "next/image";
 import { formModalContext } from "@/pages/_app";
 import { useContext } from "react";
