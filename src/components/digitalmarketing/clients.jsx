@@ -1,12 +1,12 @@
 import { useEffect,useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
-import Brand1 from "../../../public/assets/imgs/brand/Finequs-light.png";
-import Brand2 from "../../../public/assets/imgs/Clients&Partners/InstaPR-dark.png";
-import Brand3 from "../../../public/assets/imgs/brand/2.png";
-import Brand4 from "../../../public/assets/imgs/brand/4.png";
-import Brand5 from "../../../public/assets/imgs/brand/5.png";
-import Brand6 from "../../../public/assets/imgs/brand/6.png";
+import Brand1 from "../../../public/assets/imgs/Clients&Partners/icm.png";
+import Brand2 from "../../../public/assets/imgs/Clients&Partners/intonate.png";
+import Brand3 from "../../../public/assets/imgs/Clients&Partners/myprobuddy.png";
+import Brand4 from "../../../public/assets/imgs/Clients&Partners/dsp.png";
+import Brand5 from "../../../public/assets/imgs/Clients&Partners/Poppy Pundits.png";
+import Brand6 from "../../../public/assets/imgs/Clients&Partners/Finequs.png";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -69,7 +69,7 @@ const DigitalAgencyBrand = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
-                <h2 className="sec-sub-title title-anim">Trusted By Our Clients</h2>
+                <h2 className="sec-sub-title title-anim">Our Clients and Partners</h2>
                
               </div>
             </div>
@@ -87,7 +87,7 @@ const DigitalAgencyBrand = () => {
     >
       <Image
         priority
-        width={97}
+        width={207}
         height={67}
         src={Brand1}
         alt="Brand Logo"
@@ -106,7 +106,7 @@ const DigitalAgencyBrand = () => {
     >
       <Image
         priority
-        width={97}
+        width={137}
         height={67}
         src={Brand2}
         alt="Brand Logo"
@@ -142,7 +142,7 @@ const DigitalAgencyBrand = () => {
         priority
         width={97}
         height={67}
-        src={Brand1}
+        src={Brand4}
         alt="Brand Logo"
       />
     </div>
@@ -159,7 +159,7 @@ const DigitalAgencyBrand = () => {
         priority
         width={97}
         height={67}
-        src={Brand1}
+        src={Brand5}
         alt="Brand Logo"
       />
     </div>
@@ -174,9 +174,9 @@ const DigitalAgencyBrand = () => {
     >
       <Image
         priority
-        width={97}
+        width={77}
         height={67}
-        src={Brand1}
+        src={Brand6}
         alt="Brand Logo"
       />
     </div>

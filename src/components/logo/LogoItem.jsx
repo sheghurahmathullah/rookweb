@@ -1,6 +1,6 @@
 import Link from "next/link";
-import LogoWhite2 from "../../../public/assets/imgs/rook/rook-white.webp";
-import LogoBlack from "../../../public/assets/imgs/rook/rook.png";
+import LogoWhite2 from "../../../public/assets/imgs/rook/Rook-white.png";
+import LogoBlack from "../../../public/assets/imgs/rook/Rook-dark.png";
 import Image from "next/image";
 
 const logoSize = 40
@@ -13,7 +13,7 @@ export default function LogoItem() {
           <Image
             priority
             // width={136}
-            height={60}
+            height={50}
             src={LogoBlack}
             alt="Site Logo"
           />
@@ -22,7 +22,7 @@ export default function LogoItem() {
           <Image
             priority
             // width={100}
-            height={60}
+            height={50}
             src={LogoWhite2}
             alt="Site Logo"
           />
