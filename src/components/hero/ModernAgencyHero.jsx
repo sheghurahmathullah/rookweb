@@ -66,19 +66,50 @@ const ModernAgencyHero = () => {
     <>
       <section className="hero__area-4 sp-x">
         <div className="hero__content-8">
-          <h2 style={{fontSize: "clamp(30px, 8vw, 100px)"}}
-            className="sec-title-4 sec-title-5 "
-            ref={charAnim}
-          >
-            Empower Your {" "}
-            <Image
-              priority
-              width={100}
-              style={{ height: "100px" }}
-              src={Shape23}
-              alt="shape"
-            />
-          </h2>
+        <div style={{ display: "flex", alignItems: "center" }}>
+  <h2
+    style={{
+      fontSize: "clamp(30px, 8vw, 100px)",
+      margin: 0,
+    }}
+    className="sec-title-4 sec-title-5"
+    ref={charAnim}
+  >
+    Empower Your{" "}
+  </h2>
+  <Image
+    className="d-none d-md-block"
+    priority
+    width={100}
+    style={{
+      height: "100px",
+      marginLeft: "10px",
+      animation: "rotateImage 5s linear infinite",
+    }}
+    src={Shape23}
+    alt="shape"
+  />
+</div>
+<style jsx>{`
+  @keyframes rotateImage {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .sec-title-4 {
+      text-align: center;
+      width: 100%; /* Ensures text occupies full width for centering */
+    }
+  }
+`}</style>
+
+
           <h2 className="sec-title-4 animation__char_come" style={{fontSize: "clamp(30px, 8vw, 100px)"}} ref={charAnim2}> 
            Business Elevating <br />  Customer Experience  <span>  Digitally</span>
           </h2>
@@ -101,7 +132,9 @@ const ModernAgencyHero = () => {
                 <span></span>Start Your <br /> Journey{" "}
                 <i className="fa-solid fa-arrow-right"></i>
               </button>
+              
             </div>
+            
             
             
           </div>
