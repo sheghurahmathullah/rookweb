@@ -107,6 +107,17 @@ const ModernAgencyHero = () => {
       width: 100%; /* Ensures text occupies full width for centering */
     }
   }
+     @media (max-width: 768px) {
+    /* Mobile screens - stack the buttons vertically */
+    div {
+      flex-direction: column;
+    }
+
+    .btn_wrapper {
+      margin-left: 0 !important; /* Remove negative margin on mobile */
+      margin-bottom: 10px; /* Optional: Add space between buttons */
+    }
+  }
 `}</style>
 
 
@@ -124,16 +135,46 @@ const ModernAgencyHero = () => {
               />
             </div>
             
-            <div className="btn_wrapper btn_centered">
-              <button
-                onClick={openTicket}
-                className="wc-btn-primary btn-hover btn-item"
-              >
-                <span></span>Start Your <br /> Journey{" "}
-                <i className="fa-solid fa-arrow-right"></i>
-              </button>
-              
-            </div>
+            <div
+  style={{
+    display: "flex",
+    justifyContent: "center", // Keeps buttons centered horizontally
+    alignItems: "center", // Aligns buttons vertically
+    gap: "5px", // Small space between buttons
+    flexDirection: "row", // Default layout for larger screens
+  }}
+>
+  <div className="btn_wrapper btn_centered">
+    <button
+      onClick={openTicket}
+      className="wc-btn-primary btn-hover btn-item text-white"
+    >
+      <span></span>Start Your <br /> Journey{" "}
+      <i className="fa-solid fa-arrow-right"></i>
+    </button>
+  </div>
+  <div
+    className="btn_wrapper btn_centered"
+    style={{
+      marginLeft: "-600px", // Adjust the container's margin for larger screens
+    }}
+  >
+    <button
+      onClick={openTicket}
+      className="wc-btn-primary btn-hover btn-item text-white"
+    >
+      <span></span>Success <br /> Stories{" "}
+      <i className="fa-solid fa-arrow-right"></i>
+    </button>
+  </div>
+</div>
+
+
+
+
+
+
+
             
             
             

@@ -54,10 +54,19 @@ const DesignStudioRoll = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Nurturing Automation </h2>
-              </div>
-            </SwiperSlide>
+  <div className="roll__slide px-4">
+    <h2
+      style={{
+        whiteSpace: "nowrap",
+        textAlign: "center",
+        fontSize: "1.6rem",
+        paddingTop:"1px"
+      }}
+    >
+      Nurturing Automation
+    </h2>
+  </div>
+</SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
                 <h2>GTM - Strategy </h2>
@@ -74,10 +83,19 @@ const DesignStudioRoll = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Nurturing Automation </h2>
-              </div>
-            </SwiperSlide>
+  <div className="roll__slide">
+    <h2
+      style={{
+        whiteSpace: "nowrap",
+        textAlign: "center",
+        fontSize: "1.6rem",
+        paddingTop:"1px"
+      }}
+    >
+      Nurturing Automation
+    </h2>
+  </div>
+</SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
                 <h2>GTM - Strategy </h2>
@@ -94,10 +112,19 @@ const DesignStudioRoll = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Nurturing Automation </h2>
-              </div>
-            </SwiperSlide>
+  <div className="roll__slide">
+    <h2
+      style={{
+        whiteSpace: "nowrap",
+        textAlign: "center",
+        fontSize: "1.6rem",
+        paddingTop:"1px"
+      }}
+    >
+      Nurturing Automation
+    </h2>
+  </div>
+</SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
                 <h2>GTM - Strategy </h2>
