@@ -91,9 +91,7 @@ function Tabsection() {
       <div className="service-title-style text-anim pt-130">
         {/* <h2 className="sec-subtile-6">Services</h2> */}
         <h3 className="sec-title-6 title-anim">Our Services</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius nostrum
-        </p>
+       
       </div>
       <Tabs
         activeKey={activeTab}
@@ -114,7 +112,7 @@ function Tabsection() {
                 <div className="about__img-3 img-fluid pl-5 responsive-img">
   <img
     priority
-    src="https://img.freepik.com/premium-photo/computer-screen-with-written-computer-code-language_378494-251.jpg?w=360"
+    src="assets/imgs/homepage/service-1.jpg"
     alt="About Thumbnail"
     data-speed="auto"
     className="smootherReset768"
@@ -145,8 +143,8 @@ function Tabsection() {
                   <div className="sec-text-wrapper">
                     <div className="sec-text text-anim">
                       <p className="text-justify">
-                        Your website is where brand perception begins. Let's
-                        make it powerful. Your website is the first thing your
+                        <strong className="fs-5">Your website is where brand perception begins. Let's
+                        make it powerful. </strong> <br />Your website is the first thing your
                         customers see. It needs to make a strong opening move.
                         You need strategic web design wizardry on the table,
                         sparking innovation where there was once only a blank
@@ -194,6 +192,7 @@ function Tabsection() {
                       <div className="btn_wrapper">
                         <Link
                           className="wc-btn-light btn-hover btn-item"
+                          style={{border:"2px solid #ffd800"}}
                           href="/about"
                         >
                           <span></span> Build My <br />
@@ -207,6 +206,7 @@ function Tabsection() {
             </div>
           </section>
         </Tab>
+        
         <Tab
           eventKey="automation"
           title={
@@ -219,7 +219,7 @@ function Tabsection() {
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                 <img
     priority
-    src="https://img.freepik.com/premium-photo/woman-holding-virtual-icons_175634-3127.jpg?w=360"
+    src="assets/imgs/homepage/service-4.png"
     alt="About Thumbnail"
     data-speed="auto"
     className="smootherReset768"
@@ -249,9 +249,9 @@ function Tabsection() {
                   <div className="sec-text-wrapper">
                     <div className="sec-text text-anim">
                       <p>
-                        Transform first-time buyers into long-term customers
+                        <strong className="fs-5">Transform first-time buyers into long-term customers
                         with epic automated workflows and personalized nurture
-                        campaigns. Send out a cleverly crafted personalised
+                        campaigns.</strong> <br /> <br /> Send out a cleverly crafted personalised
                         communication that hooks your audience, builds
                         excitement, and keeps them eagerly awaiting the next
                         update.
@@ -284,6 +284,7 @@ function Tabsection() {
                       <div className="btn_wrapper">
                         <Link
                           className="wc-btn-light btn-hover btn-item text-center"
+                          style={{border:"2px solid #ffd800"}}
                           href="/about"
                         >
                           <span></span> Automate My
@@ -307,7 +308,7 @@ function Tabsection() {
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                 <img
     priority
-    src="https://img.freepik.com/free-photo/business-entrepreneur-man-presenting-company-statistics-using-tablet-financial-presentation_482257-4608.jpg?t=st=1731655729~exp=1731659329~hmac=26eda58d6b3eb4f2da3e8923ecb5f7bca68843f13a452c135665fdfd3923d856&w=360"
+    src="assets/imgs/homepage/service-3.png"
     alt="About Thumbnail"
     data-speed="auto"
     className="smootherReset768"
@@ -335,8 +336,8 @@ function Tabsection() {
                   <div className="sec-text-wrapper">
                     <div className="sec-text text-anim">
                       <p>
-                        Your next customer is scrolling—make them stop and
-                        engage. With digital campaigns crafted specifically for
+                        <strong className="fs-5">Your next customer is scrolling—make them stop and
+                        engage.</strong> <br /> With digital campaigns crafted specifically for
                         your business goals and success metrics, get ready for
                         growth that’s measurable, sustainable, and uniquely
                         yours.
@@ -369,6 +370,7 @@ function Tabsection() {
                       <div className="btn_wrapper">
                         <Link
                           className="wc-btn-light btn-hover text-center btn-item"
+                          style={{border:"2px solid #ffd800"}}
                           href="/about"
                         >
                           <span></span> Start Your Digital <br />
@@ -392,7 +394,7 @@ function Tabsection() {
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                 <img
     priority
-    src="https://img.freepik.com/premium-photo/business-success-process-profit-investment-economic-improvement-concepts-rising-arrows-word-growthon-business-bar-graph-wood-block-steps-table-while-businessman-working-with-computer_36367-9817.jpg?w=360"
+    src="assets/imgs/homepage/service-2.png"
     alt="About Thumbnail"
     data-speed="auto"
     className="smootherReset768"
@@ -420,12 +422,13 @@ function Tabsection() {
                   <div className="sec-text-wrapper">
                     <div className="sec-text text-anim">
                       <p>
-                        Stand out in the crowd with a GTM plan that’s anything
-                        but ordinary.
+                       <strong> Stand out in the crowd with a GTM plan that’s anything
+                       but ordinary.</strong>
                       </p>
                       <div className="btn_wrapper">
                         <Link
                           className="wc-btn-light btn-hover btn-item text-center p-3"
+                          style={{border:"2px solid #ffd800"}}
                           href="/about"
                         >
                           <span></span> Claim My Free

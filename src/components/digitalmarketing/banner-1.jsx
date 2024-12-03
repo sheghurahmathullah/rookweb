@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
 import HeroShape from "../../../public/assets/imgs/hero/4/hero-shape.webp";
+import HeroShape3 from "../../../public/assets/imgs/hero/4/hero-shape-3.webp";
 
 import Link from "next/link.js";
 
@@ -64,7 +65,7 @@ const StartupAgencyHero = () => {
   }, []);
   return (
     <>
-      <section className="hero__area-6">
+      <section className="hero__area-6 pb-130">
         <div className="container g-0 line_4">
           <div className="line-col-4">
             <div></div>
@@ -120,6 +121,15 @@ const StartupAgencyHero = () => {
           height={158}
           className="hero__shape"
           src={HeroShape}
+          alt="Shape Image"
+        />
+        
+        <Image
+          priority
+           width={38}
+          height={49}
+          className="hero__shape-3"
+          src={HeroShape3}
           alt="Shape Image"
         />
       </section>

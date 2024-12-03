@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link";
+import CountUp from 'react-countup';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -103,7 +104,7 @@ const DigitalMarketingService = () => {
                 <div className="service__item-3 service_animation">
                   <h3>
                     <Link href="/service-details" className="service__title-3">
-                    Website Development 
+                    Web Development 
                     </Link>
                   </h3>
                   <div className="service__content-3">
@@ -112,7 +113,7 @@ const DigitalMarketingService = () => {
                     Your website is the first thing your customers see. It needs to make a strong opening move. You need strategic web design wizardry on the table, sparking innovation where there was once only a blank board.
                     </p>
                     <ul className="">
-                      <li>+ 7 Custom built functional websites </li>
+                      <li>+ <CountUp end={100} /> Custom built functional websites </li>
                       <li>+ 3 No code websites </li>
                       <li>+ 1 Ecommerce Website</li>
                     </ul>
@@ -150,7 +151,7 @@ const DigitalMarketingService = () => {
                     Send out a cleverly crafted personalised communication that hooks your audience, builds excitement, and keeps them eagerly awaiting the next update.
                     </p>
                     <ul className="">
-                      <li>+ 100+ Automated workflows </li>
+                      <li>+ <CountUp end={10} /> Automated workflows </li>
                       <li>+ 30% increase in lead conversions</li>
                      
                     </ul>

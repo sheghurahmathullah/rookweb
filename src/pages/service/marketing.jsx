@@ -7,10 +7,12 @@ import DigitalAgencyBrand from "@/components/digitalmarketing/clients";
 import StartupAgencyTestimonial from "@/components/digitalmarketing/testiomonials";
 import StartupAgencyHero from "@/components/digitalmarketing/banner-1";
 import Contact1 from "@/components/digitalmarketing/contact";
+import ServiceElementV5 from "@/components/digitalmarketing/sub-service";
 import Service1 from "@/components/service/Service1";
 import ServiceBrand from "@/components/brand/ServiceBrand";
 import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
 import navData from "@/data/navDataRook.json";
+import Tabsection from "@/components/digitalmarketing/nav";
 import customThumbFooter from "../../../public/assets/imgs/rook/footer.webp"
 
 const ServiceDark = () => {
@@ -24,6 +26,8 @@ const ServiceDark = () => {
       <main>
         <RootLayout header="header1" footer="footer3" defaultMode="dark" customNavData={navData} customThumbFooter={customThumbFooter}>
           <StartupAgencyHero/>
+          <Tabsection/>
+          {/* <ServiceElementV5/> */}
           {/* <ServiceHero /> */}
           <DigitalMarketingWorkflow/>
           <ServiceElementV3/>

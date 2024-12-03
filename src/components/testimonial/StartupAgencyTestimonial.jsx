@@ -27,7 +27,7 @@ const StartupAgencyTestimonial = () => {
             <div className="col-xxl-12">
               <div className="testimonial__sec-title text-anim">
                 <h2 className="sec-subtile-6">Testimonials</h2>
-                <h3 className="sec-title-6 title-anim">Clients feedback</h3>
+                <h3 className="sec-title-6 title-anim">Hear from our satisfied clients.</h3>
                 <p>
                   Read the honest feedback from the people who have used our solutions and experienced the benefits
                 </p>

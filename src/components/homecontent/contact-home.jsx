@@ -12,7 +12,7 @@ const Contact1 = () => {
   return (
     <>
       <section className="contact__area-6">
-        <div className="container g-0 line pt-120 pb-110">
+        <div className="container g-0 line pt-120 ">
           <span className="line-3"></span>
           <div className="row">
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -114,7 +114,9 @@ const Contact1 = () => {
                   <div className="row g-3">
                     <div className="col-12">
                       <div className="btn_wrapper">
-                        <button className="wc-btn-primary btn-hover btn-item">
+                        <button className="wc-btn-primary btn-hover btn-item"
+                         style={{border:"2px solid #0096d4"}}>
+                          
                           <span></span> Send <br />
                           Messages <i className="fa-solid fa-arrow-right"></i>
                         </button>

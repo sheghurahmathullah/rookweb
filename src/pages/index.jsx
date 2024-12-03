@@ -1,6 +1,7 @@
 import Head from "next/head";
 import RootLayout from "@/components/common/layout/RootLayout";
-import ModernAgencyHero from "@/components/hero/ModernAgencyHero";
+// import ModernAgencyHero from "@/components/hero/ModernAgencyHero";
+import ModernAgencyHero from "@/components/homecontent/banner-home";
 import ModernAgencyPortfolio from "@/components/portfolio/ModernAgencyPortfolio";
 import ModernAgencyWork from "@/components/work/ModernAgencyWork";
 import ModernAgencySingleImage from "@/components/singleImage/ModernAgencySingleImage";

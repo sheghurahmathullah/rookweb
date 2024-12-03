@@ -62,10 +62,10 @@ const ModernAgencyBrand = () => {
       <div className="client__section">
         <h2 className="client__section__title fade_bottom_5">
         Starting   <span>strong,<br />scaling smart <br />let’s drive your </span> <br />
-       Growth forward
+       <span style={{color:"#ffd800",fontWeight:"bold"}}>Growth forward</span>
         </h2>
         <p
-  className="client__section__dis fade_bottom_5 text-justify"
+  className="client__section__dis fade_bottom_5 align-items-center align-content-center text-justify"
   style={{
     paddingTop:"10px",
     maxHeight: "260px", // Adjust this value to set the maximum height

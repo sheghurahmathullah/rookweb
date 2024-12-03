@@ -151,9 +151,9 @@ const DigitalMarketingWorkflow = () => {
       <div className="col-xxl-6 col-xl-6 col-lg-6 pt-5">
         <div className="image-wrapper img-fluid">
           <img 
-            src="https://img.freepik.com/free-photo/group-businesspeople-planning-social-media-application_23-2147847539.jpg?t=st=1731578107~exp=1731581707~hmac=341b48ffc394cf3115b09b864cf651b8fa39003029a3a51c179a7344c9b076a8&w=996" 
+            src="/assets/imgs/digitalmarketing/step-1.png" 
             alt="Campaign Execution & Promotion" 
-            style={{ width: "400px", height: "300px", borderRadius: "8px" }} // Adjust as needed
+            style={{ width: "100%", height: "300px", borderRadius: "8px" }} // Adjust as needed
           />
         </div>
       </div>
@@ -184,9 +184,9 @@ const DigitalMarketingWorkflow = () => {
       <div className="col-xxl-6 col-xl-6 col-lg-6 pt-5">
         <div className="image-wrapper">
           <img 
-            src="https://img.freepik.com/free-photo/group-diverse-people-brainstorming-together_53876-31193.jpg?t=st=1731578640~exp=1731582240~hmac=23b4ae421bbf911ac30e1876d351db36c335c9841a7915cb53ca1c7ab70082b9&w=996" 
+            src="/assets/imgs/digitalmarketing/step-2.jpg" 
             alt="Campaign Execution & Promotion" 
-            style={{ width: "400px", height: "300px", borderRadius: "8px" }} // Adjust as needed
+            style={{ width: "100%", height: "300px", borderRadius: "8px" }} // Adjust as needed
           />
         </div>
       </div>
@@ -219,9 +219,9 @@ const DigitalMarketingWorkflow = () => {
       <div className="col-xxl-6 col-xl-6 col-lg-6 pt-5">
         <div className="image-wrapper">
           <img 
-            src="https://img.freepik.com/free-photo/woman-holding-instagram-like-icon-with-his-friends-showing-thumbup-sign_23-2147847475.jpg?t=st=1731578802~exp=1731582402~hmac=e4187e03b9b8867ced33e4d8094fa6a3324ac7fd14431f9c476ac88ee342211d&w=996" 
+            src="/assets/imgs/digitalmarketing/step-3.jpg" 
             alt="Campaign Execution & Promotion" 
-            style={{ width: "400px", height: "300px", borderRadius: "8px" }} // Adjust as needed
+            style={{ width: "100%", height: "300px", borderRadius: "8px" }} // Adjust as needed
           />
         </div>
       </div>
@@ -251,9 +251,9 @@ const DigitalMarketingWorkflow = () => {
       <div className="col-xxl-6 col-xl-6 col-lg-6 pt-5">
         <div className="image-wrapper">
           <img 
-            src="https://img.freepik.com/free-photo/people-using-digital-device-while-meeting_23-2149085923.jpg?t=st=1731578950~exp=1731582550~hmac=d91c3fb28659a86ce3d512423a2da85d7b8c3ed052253717b3846bdd9e250451&w=996" 
+            src="/assets/imgs/digitalmarketing/step-4.jpg" 
             alt="Campaign Execution & Promotion" 
-            style={{ width: "400px", height: "300px", borderRadius: "8px" }} // Adjust as needed
+            style={{ width: "100%", height: "300px", borderRadius: "8px" }} // Adjust as needed
           />
         </div>
       </div>

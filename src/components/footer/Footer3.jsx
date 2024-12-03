@@ -50,18 +50,43 @@ export default function Footer3(
             <div className="row footer__row">
               <div className="col-xxl-12">
                 <div className="footer__inner">
-                  <div className="footer__widget">
+{/* col-1 */}
+
+                  <div className="footer__widget-2">
                     <Image
                       priority
-                      style={{ width: "auto", height: 40 }}
+                      style={{ width: "auto", height: 45 }}
                       className="footer__logo"
                       src={FooterLogoWhite}
                       alt="Footer Logo"
                     />
-                    <p style={{ textAlign: "justify", width: "100%" }}>
-                      Rook Fellows offers expert digital marketing services, skillfully enhancing
-                      social media, SEO, and cutting-edge technology to propel businesses forward in the dynamic and competitive digital realm.
-                    </p>
+                   
+                    
+                  </div>
+
+{/* col-2 */}
+                  <div className="footer__widget-2">
+                    <h2 className="footer__widget-title">Get in Touch</h2>
+                    <ul className="footer__contact">
+                    <li>
+                        <a href="mailto:fellows@rookhq.com">
+                          empower@rookhq.com
+                        </a>
+                      </li>
+                      <li>
+                        <a href="tel:07092700022" className="phone">
+                          (+91) 709 270 0022{" "}
+                        </a>
+                      </li>
+                     
+                    </ul>
+                  </div>
+
+{/* col-3 */}
+
+                  <div className="footer__widget-2">
+                  <h2 className="footer__widget-title">Follow Us</h2>
+                   
                     <ul className="footer__social">
                       <li>
                         <a href="https://linkedin.com/company/rf">
@@ -95,70 +120,28 @@ export default function Footer3(
                     </ul>
                   </div>
 
-                  <div className="footer__widget-2">
-                    <h2 className="footer__widget-title">We Grow Together</h2>
-                    <ul className="footer__link">
-                      <li>
-                        <Link href="https://rookhq.com">Rook</Link>
-                      </li>
-                      <li>
-                        <Link href="https://rookhq.com/about">Who We Are?</Link>
-                      </li>
-                      <li>
-                        <Link href="https://rookhq.com/happenings">Happenings</Link>
-                      </li>
-                      <li>
-                        <Link href="https://resource.rookfellows.com/">Resources</Link>
-                      </li>
-                    </ul>
-                  </div>
+                 
+{/* col-4 */}
 
-                  <div className="footer__widget-3">
-                    <h2 className="footer__widget-title">Contact Us</h2>
+                  <div className="footer__widget-2" style={{width:"300px"}} >
+                    <h2 className="footer__widget-title">Terms and Conditions</h2>
                     <ul className="footer__contact">
-                      <li>No.248, Kuberan Nagar 11th Street Extn, Chennai, India - 600091.</li>
+                      <li>© All Rights Reserved 2020 - 2024 <br /><strong>Rook Ecom Private Limited</strong></li>
+                      
+                     
                       <li>
-                        <a href="tel:07092700022" className="phone">
-                          (+91) 709 270 0022{" "}
-                        </a>
-                      </li>
-                      <li>
-                        <a href="mailto:fellows@rookhq.com">
-                          fellows@rookhq.com
-                        </a>
+                      Disclaimer: All logos and trademarks belong to their respective owners.
                       </li>
                     </ul>
                   </div>
 
-                  <div className="footer__widget-4">
-                    <h2 className="project-title">
-                      Empower Your Business!
-                    </h2>
-                    <div className="btn_wrapper">
-                      <button
-                        onClick={openTicket}
-                        
-                        className="wc-btn-primary btn-hover btn-item"
-                      >
-                        <span></span> Start Your <br /> Journey{" "}
-                        <i className="fa-solid fa-arrow-right"></i>
-                      </button>
-                    </div>
-                    <h3 className="contact-time">09 : 00 AM - 10 : 30 PM</h3>
-                    <h4 className="contact-day">Monday - Saturday</h4>
-                  </div>
+{/* col-5 */}
+<div className="footer__widget-3 text-center text-md-left">
+  <h2 className="footer__widget-title">Work with Us</h2>
+  <ul className="footer__contact"></ul>
+</div>
 
-                  <div className="footer__copyright">
-                    <p>
-                      © All Rights Reserved 2020 - {new Date().getFullYear()}{" "}
-                      <a href="https://rookhq.com/" target="_blank">
-                        Rook Ecom Private Limited
-                      </a>
-                    </p>
-                    <p>
-                    Disclaimer: All logos and trademarks belong to their respective owners.
-                    </p>
-                  </div>
+                 
                 </div>
               </div>
             </div>

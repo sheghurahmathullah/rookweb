@@ -64,7 +64,7 @@ const ModernAgencySingleImage = () => {
   }, []);
   return (
     <>
-      <div className="single__image-8 pt-130 pb-200 text-center sp-x">
+      <div className="single__image-8  text-center sp-x">
         <div className="col-lg-10 text-center m-auto">
           <div className="singlecontent">
             <div className="hover_8_wrap">
@@ -97,6 +97,7 @@ const ModernAgencySingleImage = () => {
             </p>
             <div className="btn_wrapper btn_centered justify-content-center">
               <button
+               style={{border:"2px solid #0096d4"}}
                 
                 className="wc-btn-primary btn-hover btn-item"
               >

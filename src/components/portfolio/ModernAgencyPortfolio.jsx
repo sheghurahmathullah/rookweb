@@ -111,9 +111,10 @@ const ModernAgencyPortfolio = () => {
             </div> */}
             <div className="about8">
               <h2 className="about8__title fade_bottom_2">
-              Building <br /> scalable, sustainable <br />growth for  <span>your </span>
+              Building <br /> sustainable <br />growth for  <span>your </span>
                 <Link
                   href="/about"
+                  style={{color:"#0096d4"}}
                   className="hover_wrap text-carousel-vertical"
                   ref={hoverWrap}
                 >
@@ -141,11 +142,11 @@ const ModernAgencyPortfolio = () => {
               </p>
               <Link
                 href="https://rookhq.com/about"
-                className="blog__btn about_btn" style={{paddingTop:"35px"}}
+                className="blog__btn about_btn" style={{paddingTop:"0px"}}
               >
                 Read More{" "}
                 <span>
-                  <i className="fa-solid fa-arrow-right" style={{paddingTop:"35px",paddingRight:"20px"}}></i>
+                  <i className="fa-solid fa-arrow-right" style={{paddingTop:"0px",paddingRight:"0px"}}></i>
                 </span>
               </Link>
             </div>

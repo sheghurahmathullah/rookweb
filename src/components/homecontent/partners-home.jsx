@@ -1,12 +1,12 @@
 import { useEffect,useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
-import Brand1 from "../../../public/assets/imgs/Clients&Partners/icm.png";
-import Brand2 from "../../../public/assets/imgs/Clients&Partners/intonate.png";
-import Brand3 from "../../../public/assets/imgs/Clients&Partners/myprobuddy.png";
-import Brand4 from "../../../public/assets/imgs/Clients&Partners/dsp.png";
-import Brand5 from "../../../public/assets/imgs/Clients&Partners/Poppy Pundits.png";
-import Brand6 from "../../../public/assets/imgs/Clients&Partners/Finequs.png";
+import Brand1 from "../../../public/assets/imgs/Clients&Partners/newclients/1.png";
+import Brand2 from "../../../public/assets/imgs/Clients&Partners/newclients/2.png";
+import Brand3 from "../../../public/assets/imgs/Clients&Partners/newclients/3.png";
+import Brand4 from "../../../public/assets/imgs/Clients&Partners/newclients/4.png";
+import Brand5 from "../../../public/assets/imgs/Clients&Partners/newclients/5.png";
+// import Brand6 from "../../../public/assets/imgs/Clients&Partners/newclients/Group 251.png";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -69,7 +69,7 @@ const DigitalAgencyBrand = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
-                <h2 className="sec-sub-title title-anim">Our Clients and Partners</h2>
+                <h2 className="sec-sub-title title-anim fs-1 fs-lg-1" style={{fontWeight:"bold"}}>Our Clients and Partners</h2>
                
               </div>
             </div>
@@ -82,14 +82,17 @@ const DigitalAgencyBrand = () => {
       onMouseLeave={() => setIsHovered1(false)}
       style={{
         transition: "transform 0.3s ease", // Smooth transition effect
+        padding:"5px",
+        borderRadius:"5px",
         transform: isHovered1 ? "scale(1.1)" : "scale(1)", // Scale up on hover
       }}
     >
       <Image
         priority
-        width={207}
-        height={67}
+        width={250}
+        height={127}
         src={Brand1}
+        style={{borderRadius:"5px"}}
         alt="Brand Logo"
       />
     </div>
@@ -101,47 +104,54 @@ const DigitalAgencyBrand = () => {
       onMouseLeave={() => setIsHovered2(false)}
       style={{
         transition: "transform 0.3s ease", // Smooth transition effect
+        padding:"5px",
         transform: isHovered2 ? "scale(1.1)" : "scale(1)", // Scale up on hover
       }}
     >
       <Image
         priority
-        width={137}
-        height={67}
+        width={250}
+        height={127}
         src={Brand2}
+        style={{borderRadius:"5px"}}
         alt="Brand Logo"
       />
     </div>
     <div
+    
       className="brand__item fade_bottom"
       onMouseEnter={() => setIsHovered3(true)}
       onMouseLeave={() => setIsHovered3(false)}
       style={{
         transition: "transform 0.3s ease", // Smooth transition effect
+        padding:"5px",
         transform: isHovered3 ? "scale(1.2)" : "scale(1)", // Scale up on hover
       }}
     >
       <Image
         priority
-        width={97}
-        height={67}
+        width={250}
+        height={127}
+        style={{borderRadius:"5px"}}
         src={Brand3}
         alt="Brand Logo"
       />
     </div>
-    <div
+    <div 
       className="brand__item fade_bottom"
       onMouseEnter={() => setIsHovered4(true)}
       onMouseLeave={() => setIsHovered4(false)}
       style={{
         transition: "transform 0.3s ease", // Smooth transition effect
+        padding:"5px",
         transform: isHovered4 ? "scale(1.1)" : "scale(1)", // Scale up on hover
       }}
     >
       <Image
         priority
-        width={97}
-        height={67}
+        width={250}
+        height={127}
+        style={{borderRadius:"5px"}}
         src={Brand4}
         alt="Brand Logo"
       />
@@ -149,37 +159,44 @@ const DigitalAgencyBrand = () => {
     <div
       className="brand__item fade_bottom"
       onMouseEnter={() => setIsHovered5(true)}
+      
       onMouseLeave={() => setIsHovered5(false)}
       style={{
         transition: "transform 0.3s ease", // Smooth transition effect
+        padding:"5px",
         transform: isHovered5 ? "scale(1.1)" : "scale(1)", // Scale up on hover
       }}
     >
       <Image
         priority
-        width={97}
-        height={67}
+        width={250}
+        height={127}
         src={Brand5}
+        style={{borderRadius:"5px"}}
         alt="Brand Logo"
       />
     </div>
-    <div
+    {/* <div
       className="brand__item fade_bottom"
       onMouseEnter={() => setIsHovered6(true)}
       onMouseLeave={() => setIsHovered6(false)}
       style={{
         transition: "transform 0.3s ease", // Smooth transition effect
+        
         transform: isHovered6 ? "scale(1.1)" : "scale(1)", // Scale up on hover
       }}
     >
       <Image
         priority
-        width={77}
-        height={67}
+        width={250}
+        height={127}
         src={Brand6}
         alt="Brand Logo"
       />
-    </div>
+    </div> */}
+  
+    
+    
               </div>
             </div>
           </div>
