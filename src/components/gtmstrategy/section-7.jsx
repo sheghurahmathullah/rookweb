@@ -115,7 +115,7 @@ const Contact1 = () => {
                     <div className="col-12">
                       <div className="btn_wrapper">
                         <button className="wc-btn-primary btn-hover btn-item"
-                        style={{border:"2px solid #0096d4"}}>
+                        style={{border:"2px solid #ffd800"}}>
                           <span></span> Send <br />
                           Messages <i className="fa-solid fa-arrow-right"></i>
                         </button>

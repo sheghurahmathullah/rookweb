@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const StartupAgencyService = () => {
 
-  const [Color, setColor] = useState("#ffd800");
+  const [color, setColor] = useState("#ffd800");
         const [marginTop, setMarginTop] = useState("-120px");
       
         useEffect(() => {
@@ -112,16 +112,16 @@ const StartupAgencyService = () => {
               <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-6" style={{ marginTop}}>
                 <div className="service__list-4">
                   <div className="service__item-4 fade_bottom_2">
-                    <div className="service__item-number">
+                    <div className="service__item-number" style={{color:"#ffd800"}}>
                       <span>01</span>
                     </div>
                     <div className="service__title-wrapper-4">
-                      <h4 style={{color: Color}}>
+                      <h4 style={{color: color}}>
                         <Link
                           className="service__item-title"
                           href=""
                            onMouseEnter={() => setColor("#0096d4")}
-      onMouseLeave={() => setColor("#ffd800")}
+                           onMouseLeave={() => setColor("#ffd800")}
                         >
                           	Market-Proven Expertise
                         </Link>
@@ -131,7 +131,7 @@ const StartupAgencyService = () => {
                    
                   </div>
                   <div className="service__item-4 fade_bottom_2">
-                    <div className="service__item-number">
+                    <div className="service__item-number" style={{color:"#ffd800"}}>
                       <span>02</span>
                     </div>
                     <div className="service__title-wrapper-4">
@@ -148,7 +148,7 @@ const StartupAgencyService = () => {
                    
                   </div>
                   <div className="service__item-4 fade_bottom_2">
-                    <div className="service__item-number">
+                    <div className="service__item-number" style={{color:"#ffd800"}}>
                       <span>03</span>
                     </div>
                     <div className="service__title-wrapper-4">
@@ -165,7 +165,7 @@ const StartupAgencyService = () => {
                    
                   </div>
                   <div className="service__item-4 fade_bottom_2">
-                    <div className="service__item-number">
+                    <div className="service__item-number" style={{color:"#ffd800"}}>
                       <span>04</span>
                     </div>
                     <div className="service__title-wrapper-4">

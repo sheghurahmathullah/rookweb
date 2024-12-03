@@ -103,7 +103,7 @@ const StartupAgencyHero = () => {
       <strong></strong> <br />
       We specialize in crafting the perfect go-to-market strategies tailored to your business needs. Whether you're launching a new product, entering a new market, or looking to refine your existing strategy, our team of experts is here to guide you every step of the way.
     </p>
-    <p ref={heroText} style={{fontSize:"20px",paddingTop:"30px"}}> 
+    <p ref={heroText} style={{fontSize:"25px",paddingTop:"30px"}}> 
                <strong>Get A Customised Go To Market Plan at just ₹499 Only.</strong> <br />
               
                 </p>
