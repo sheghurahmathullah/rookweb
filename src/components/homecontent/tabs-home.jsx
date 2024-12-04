@@ -251,7 +251,7 @@ function Tabsection() {
                       <div className="btn_wrapper">
                         <Link
                           className="wc-btn-light btn-hover btn-item"
-                          style={{ border: "2px solid #ffd800" }}
+                          style={{ border: "2px solid #0096d4" }}
                           href="/about"
                         >
                           <span></span> Build My <br />
@@ -359,7 +359,7 @@ function Tabsection() {
                       <div className="btn_wrapper">
                         <Link
                           className="wc-btn-light btn-hover btn-item text-center"
-                          style={{ border: "2px solid #ffd800" }}
+                          style={{ border: "2px solid #0096d4" }}
                           href="/about"
                         >
                           <span></span> Automate My
@@ -463,7 +463,7 @@ function Tabsection() {
                       <div className="btn_wrapper">
                         <Link
                           className="wc-btn-light btn-hover text-center btn-item"
-                          style={{ border: "2px solid #ffd800" }}
+                          style={{ border: "2px solid #0096d4" }}
                           href="/about"
                         >
                           <span></span> Start Your Digital <br />
@@ -525,7 +525,7 @@ function Tabsection() {
                       <div className="btn_wrapper">
                         <Link
                           className="wc-btn-light btn-hover btn-item text-center p-3"
-                          style={{ border: "2px solid #ffd800" }}
+                          style={{ border: "2px solid #0096d4" }}
                           href="/about"
                         >
                           <span></span> Claim My Free

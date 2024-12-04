@@ -27,7 +27,7 @@ const StartupAgencyTestimonial = () => {
             <div className="col-xxl-12">
               <div className="testimonial__sec-title text-anim">
                 <h2 className="sec-subtile-6">Testimonials</h2>
-                <h3 className="sec-title-6 title-anim">Hear from our satisfied clients</h3>
+                <h3 className="sec-title-6 title-anim">Hear from our satisfied clients.</h3>
                 <p>
                   Read the honest feedback from the people who have used our solutions and experienced the benefits
                 </p>
@@ -68,8 +68,9 @@ const StartupAgencyTestimonial = () => {
                     <div className="testimonial__slide-4">
                       <Image
                         priority
-                        width={85}
-                        height={85}
+                        width={100}
+                        height={100}
+                        style={{borderRadius:"50%"}}
                         className="testimonial__img-4"
                         src={Testimonial41}
                         alt="Testimonial Image"
@@ -95,8 +96,9 @@ const StartupAgencyTestimonial = () => {
                     <div className="testimonial__slide-4">
                       <Image
                         priority
-                        width={85}
-                        height={85}
+                        width={100}
+                        height={100}
+                        style={{borderRadius:"50%"}}
                         className="testimonial__img-4"
                         src={Testimonial42}
                         alt="Testimonial Image"
@@ -118,8 +120,10 @@ const StartupAgencyTestimonial = () => {
                     <div className="testimonial__slide-4">
                       <Image
                         priority
-                        width={85}
-                        height={85}
+                        
+                        width={100}
+                        height={100}
+                        style={{borderRadius:"50%"}}
                         className="testimonial__img-4"
                         src={Testimonial43}
                         alt="Testimonial Image"

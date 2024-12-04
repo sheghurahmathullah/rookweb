@@ -1,7 +1,7 @@
 import { useEffect,useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
-import Brand1 from "../../../public/assets/imgs/Clients&Partners/newclients/1.png";
+import Brand1 from "../../../public/assets/imgs/Clients&Partners/newclients/CEC.png";
 import Brand2 from "../../../public/assets/imgs/Clients&Partners/newclients/2.png";
 import Brand3 from "../../../public/assets/imgs/Clients&Partners/newclients/3.png";
 import Brand4 from "../../../public/assets/imgs/Clients&Partners/newclients/4.png";
@@ -64,7 +64,7 @@ const DigitalAgencyBrand = () => {
   return (
     <>
       <section className="brand__area">
-        <div className="container g-0 line pb-130">
+        <div className="container g-0 line pt-1 pb-130">
           <span className="line-3"></span>
           <div className="row">
             <div className="col-xxl-12">

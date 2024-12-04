@@ -60,10 +60,10 @@ const ModernAgencyBrand = () => {
         </h4>
       </div>
       <div className="client__section">
-        <h2 className="client__section__title fade_bottom_5 ">
-          <span>What makes Facebook ads<br /> such a valuable</span> <br />
-       Marketing Tool ?
-        </h2>
+      <h2 className="client__section__title fade_bottom_5">
+  <span>What makes Facebook ads<br /> such a valuable</span> <br />
+   <span style={{ color: "#0096d4",fontWeight:"bold" }}>Marketing Tool?</span>
+</h2>
         <p
   className="client__section__dis fade_bottom_5 text-justify"
   style={{

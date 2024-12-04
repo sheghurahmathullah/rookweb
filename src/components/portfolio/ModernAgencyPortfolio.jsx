@@ -114,7 +114,7 @@ const ModernAgencyPortfolio = () => {
               Building <br /> sustainable <br />growth for  <span>your </span>
                 <Link
                   href="/about"
-                  style={{color:"#0096d4"}}
+                  style={{color:"#ffd800"}}
                   className="hover_wrap text-carousel-vertical"
                   ref={hoverWrap}
                 >

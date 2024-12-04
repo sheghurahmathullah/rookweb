@@ -68,8 +68,9 @@ const StartupAgencyTestimonial = () => {
                     <div className="testimonial__slide-4">
                       <Image
                         priority
-                        width={85}
-                        height={85}
+                        width={100}
+                        height={100}
+                        style={{borderRadius:"50%"}}
                         className="testimonial__img-4"
                         src={Testimonial41}
                         alt="Testimonial Image"
@@ -95,8 +96,9 @@ const StartupAgencyTestimonial = () => {
                     <div className="testimonial__slide-4">
                       <Image
                         priority
-                        width={85}
-                        height={85}
+                        width={100}
+                        height={100}
+                        style={{borderRadius:"50%"}}
                         className="testimonial__img-4"
                         src={Testimonial42}
                         alt="Testimonial Image"
@@ -118,8 +120,10 @@ const StartupAgencyTestimonial = () => {
                     <div className="testimonial__slide-4">
                       <Image
                         priority
-                        width={85}
-                        height={85}
+                        
+                        width={100}
+                        height={100}
+                        style={{borderRadius:"50%"}}
                         className="testimonial__img-4"
                         src={Testimonial43}
                         alt="Testimonial Image"

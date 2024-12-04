@@ -120,7 +120,7 @@ const DigitalMarketingWorkflow = () => {
               <div className="row">
                 <div className="col-xxl-12">
                   <div className="choose-title-wrapper">
-                    <h2 className="choose-title title-anim" style={{fontSize:"100px"}}>
+                    <h2 className="choose-title title-anim" style={{fontSize:"100px",color:"#0096d4"}}>
                       steps in Digital Marketing
                     </h2>
                   </div>

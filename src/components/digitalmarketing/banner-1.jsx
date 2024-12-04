@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
-import HeroShape from "../../../public/assets/imgs/hero/4/hero-shape.webp";
+import HeroShape from "../../../public/assets/imgs/hero/4/Ellipse 1.png";
 import HeroShape3 from "../../../public/assets/imgs/hero/4/hero-shape-3.webp";
 
 import Link from "next/link.js";
@@ -88,6 +88,7 @@ const StartupAgencyHero = () => {
                 <Link
                   className="btn-started btn-hover"
                   href="/contact"
+                  style={{backgroundColor:"#0096d4"}}
                   ref={heroAnchor}
                 >
                   Get Quote

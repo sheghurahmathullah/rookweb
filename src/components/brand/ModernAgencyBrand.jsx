@@ -52,7 +52,7 @@ const ModernAgencyBrand = () => {
     }
   }, []);
   return (
-    <div className="client__area-8 sp-x">
+    <div className="client__area-8 sp-x pb-0">
       <h6 className="text-end about-sub-right">Our Clients</h6>
       <div className="section_wrapper">
         <h4 className="react_border">
@@ -62,7 +62,7 @@ const ModernAgencyBrand = () => {
       <div className="client__section">
         <h2 className="client__section__title fade_bottom_5">
         Starting   <span>strong,<br />scaling smart <br />let’s drive your </span> <br />
-       <span style={{color:"#ffd800",fontWeight:"bold"}}>Growth forward</span>
+       <span style={{color:"#0096d4",fontWeight:"bold"}}>Growth forward</span>
         </h2>
         <p
   className="client__section__dis fade_bottom_5 align-items-center align-content-center text-justify"

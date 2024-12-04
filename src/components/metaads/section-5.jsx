@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import { Accordion } from "react-bootstrap";
 import Link from "next/link.js";
-import imgsBg41 from "../../../public/assets/imgs/bg/4/1.png";
+import imgsBg41 from "../../../public/assets/imgs/bg/4/Group 30.png";
 import imgsBg42 from "../../../public/assets/imgs/bg/4/2.png";
 import Image from "next/image";
 

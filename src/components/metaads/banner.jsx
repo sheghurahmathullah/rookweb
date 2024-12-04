@@ -1,13 +1,14 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState} from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
-import HeroShape from "../../../public/assets/imgs/hero/4/hero-shape.webp";
+import HeroShape from "../../../public/assets/imgs/hero/4/Ellipse 1.png";
 
 import Link from "next/link.js";
 
 import Image from "next/image.js";
 
 const StartupAgencyHero = () => {
+  const [bgColor, setBgColor] = useState("#0096d4");
   const heroTitle = useRef();
   const heroText = useRef();
   const heroAnchor = useRef();
@@ -86,8 +87,11 @@ const StartupAgencyHero = () => {
                 </p>
                 <Link
                   className="btn-started btn-hover"
+                  style={{ backgroundColor: bgColor }}
                   href="/contact"
                   ref={heroAnchor}
+                  onMouseEnter={() => setBgColor("#dc2e3e")}
+      onMouseLeave={() => setBgColor("#0096d4")}
                 >
                   Get Quote
                 </Link>

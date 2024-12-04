@@ -1,8 +1,9 @@
 import animationCharCome from "@/lib/utils/animationCharCome";
 import animationWordCome from "@/lib/utils/animationWordCome";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef,useState } from "react";
 
 const Contact1 = () => {
+  const [bgColor, setBgColor] = useState("#ffd800");
   const charAnim = useRef();
   const wordAnim = useRef();
   useEffect(() => {
@@ -114,8 +115,11 @@ const Contact1 = () => {
                   <div className="row g-3">
                     <div className="col-12">
                       <div className="btn_wrapper">
-                        <button className="wc-btn-primary btn-hover btn-item"
-                        style={{border:"2px solid #ffd800"}}>
+                        <button className="wc-btn-primary btn-item"
+
+                         onMouseEnter={() => setBgColor("#ffd800")}
+                         onMouseLeave={() => setBgColor("black")}
+                        style={{border:"2px solid #ffd800",backgroundColor: bgColor}}>
                           <span></span> Send <br />
                           Messages <i className="fa-solid fa-arrow-right"></i>
                         </button>
