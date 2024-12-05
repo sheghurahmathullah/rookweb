@@ -1,6 +1,6 @@
 import animationCharCome from "@/lib/utils/animationCharCome";
 import animationWordCome from "@/lib/utils/animationWordCome";
-import { useEffect, useRef,useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Contact1 = () => {
   const [bgColor, setBgColor] = useState("#ffd800");
@@ -25,7 +25,7 @@ const Contact1 = () => {
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="contact__text">
-              {/* <p className="responsive-margin text-justify" style={{
+                {/* <p className="responsive-margin text-justify" style={{
     paddingTop: "10px",
     maxHeight: "160px",
     maxWidth: "500px",
@@ -39,19 +39,18 @@ const Contact1 = () => {
   }
 </p> */}
 
-<style jsx>{`
-  .responsive-margin {
-    margin-left: -100px; /* Shift left on larger screens */
-  }
+                <style jsx>{`
+                  .responsive-margin {
+                    margin-left: -100px; /* Shift left on larger screens */
+                  }
 
-  /* Media query for small screens */
-  @media (max-width: 600px) {
-    .responsive-margin {
-      margin-left: 0; /* Reset margin on small screens */
-    }
-  }
-`}</style>
-
+                  /* Media query for small screens */
+                  @media (max-width: 600px) {
+                    .responsive-margin {
+                      margin-left: 0; /* Reset margin on small screens */
+                    }
+                  }
+                `}</style>
               </div>
             </div>
           </div>
@@ -75,7 +74,9 @@ const Contact1 = () => {
                   </li>
                   <li>
                     <span>
-                    248, 11th St, Kuberan Nagar Extension,<br /> Kuberan Nagar, Madipakkam, <br />Chennai, Tamil Nadu 600091
+                      248, 11th St, Kuberan Nagar Extension,
+                      <br /> Kuberan Nagar, Madipakkam, <br />
+                      Chennai, Tamil Nadu 600091
                     </span>
                   </li>
                 </ul>
@@ -115,11 +116,15 @@ const Contact1 = () => {
                   <div className="row g-3">
                     <div className="col-12">
                       <div className="btn_wrapper">
-                        <button className="wc-btn-primary btn-item"
-
-                         onMouseEnter={() => setBgColor("#ffd800")}
-                         onMouseLeave={() => setBgColor("black")}
-                        style={{border:"2px solid #ffd800",backgroundColor: bgColor}}>
+                        <button
+                          className="wc-btn-primary "
+                          onMouseEnter={() => setBgColor("#ffd800")}
+                          onMouseLeave={() => setBgColor("black")}
+                          style={{
+                            border: "2px solid #ffd800",
+                            backgroundColor: bgColor,
+                          }}
+                        >
                           <span></span> Send <br />
                           Messages <i className="fa-solid fa-arrow-right"></i>
                         </button>
