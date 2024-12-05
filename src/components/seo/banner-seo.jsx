@@ -1,14 +1,15 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef,useState } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
-import HeroShape from "../../../public/assets/imgs/hero/4/hero-shape.webp";
-import HeroShape3 from "../../../public/assets/imgs/hero/4/hero-shape-3.webp";
+import HeroShape from "../../../public/assets/imgs/hero/4/Ellipse 2.png";
+import HeroShape3 from "../../../public/assets/imgs/hero/4/star-yellow.png";
 
 import Link from "next/link.js";
 
 import Image from "next/image.js";
 
 const StartupAgencyHero = () => {
+  const [bgColor, setBgColor] = useState("#ffd800");
   const heroTitle = useRef();
   const heroText = useRef();
   const heroAnchor = useRef();
@@ -87,8 +88,11 @@ const StartupAgencyHero = () => {
                 </p>
                 <Link
                   className="btn-started btn-hover"
+                  style={{ backgroundColor: bgColor,color:"black" }}
                   href="/contact"
                   ref={heroAnchor}
+                  onMouseEnter={() => setBgColor("#0096d4")}
+                  onMouseLeave={() => setBgColor("#ffd800")}
                 >
                   Get my SEO report now
                 </Link>

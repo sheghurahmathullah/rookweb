@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger, ScrollSmoother } from "@/plugins";
 import Link from "next/link";
@@ -35,9 +35,53 @@ const LeadnurturingBanner = () => {
     }
   }, []);
 
+
+  const [theme, setTheme] = useState();
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const bodyElement = document.querySelector("body");
+
+      // Function to update theme based on body class
+      const updateTheme = () => {
+        if (bodyElement.classList.contains("dark")) {
+          setTheme("dark");
+        } else {
+          setTheme("light");
+        }
+      };
+
+      // Call updateTheme initially
+      updateTheme();
+
+      // Set up a MutationObserver to watch for class changes
+      const observer = new MutationObserver(() => {
+        updateTheme();
+      });
+
+      observer.observe(bodyElement, {
+        attributes: true, // Watch for attribute changes
+        attributeFilter: ["class"], // Specifically watch the 'class' attribute
+      });
+
+      // Cleanup observer on component unmount
+      return () => observer.disconnect();
+    }
+  }, []);
+
+
+  const themestyle = () => ({
+    background: theme === "light" ? "#ffff" : "",
+  });
+
+  const fontstyle = () => ({
+    background: theme === "light" ? "#ffff" : "",
+    color: theme === "light" ? "#000" : "#fff",
+  });
+
   return (
     <>
-      <section className="about__area-2">
+      <section className="about__area-2"style={themestyle()}>
        
 
         <div className="about__img-2">

@@ -1,53 +1,55 @@
 {
   "nav": [
-    {
-      "nav_name": "What Did We Build?",
-      "link": "/#",
-      "type": "dropdown",
-      "sub_nav": [
-        {
-          "name": "Dots AI",
-          "link": "https://dotsai.app/"
-        },
-        {
-          "name": "RPort",
-          "link": "https://port.rookhq.com/"
-        }
-      ]
-    },
+    
     {
       "nav_name": "What We Do?",
       "link": "/#",
       "type": "dropdown",
       "sub_nav": [
         {
-          "name": "Software Development",
-          "link": "/service/development"
-        },
-        {
           "name": "Digital Marketing",
           "link": "/service/marketing"
         },
         {
-          "name": "Designing",
-          "link": "/service/designing"
+          "name": "SEO",
+          "link": "/service/seo"
+        },
+        {
+          "name": "MetaAds",
+          "link": "/service/metaads"
+        },
+        {
+          "name": "Social Media Management",
+          "link": "/service/smm"
+        },
+        {
+          "name": "Email Marketing",
+          "link": "/service/emailmarketing"
+        },
+        {
+          "name": "GTM Strategy",
+          "link": "/service/gtmstrategy"
+        },
+        {
+          "name": "Lead Nurturing",
+          "link": "/service/leadnurturing"
         }
       ]
     },
     {
-      "nav_name": "Who We Are?",
+      "nav_name": "Rook For Business",
       "link": "https://rookhq.com/about",
       "type": "",
       "sub_nav": []
     },
     {
-      "nav_name": "Success Stories",
+      "nav_name": "Rook For Startups",
       "link": "/portfolio",
       "type": "",
       "sub_nav": []
     },
     {
-      "nav_name": "ROOK FELLOWS DOMAINS",
+      "nav_name": "Success Stories",
       "link": "/domains",
       "type": "",
       "sub_nav": []

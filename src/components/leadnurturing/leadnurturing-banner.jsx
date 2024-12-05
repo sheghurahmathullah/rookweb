@@ -1,13 +1,16 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
-import HeroShape from "../../../public/assets/imgs/hero/4/Ellipse 3.png";
+import HeroShape from "../../../public/assets/imgs/hero/4/Ellipse 1.png";
+import HeroShape3 from "../../../public/assets/imgs/hero/4/star-blue.png";
+
 
 import Link from "next/link.js";
 
 import Image from "next/image.js";
 
 const StartupAgencyHero = () => {
+  const [bgColor, setBgColor] = useState("#0096d4");
   const heroTitle = useRef();
   const heroText = useRef();
   const heroAnchor = useRef();
@@ -86,9 +89,11 @@ const StartupAgencyHero = () => {
                 </p>
                 <Link
                   className="btn-started btn-hover"
-                  style={{backgroundColor:'#00d437',color:"black"}}
+                  style={{ backgroundColor: bgColor }}
                   href="/contact"
                   ref={heroAnchor}
+                  onMouseEnter={() => setBgColor("#dc2e3e")}
+      onMouseLeave={() => setBgColor("#0096d4")}
                 >
                   Create Your Automated Nurture Flow
                 </Link>
@@ -121,6 +126,15 @@ const StartupAgencyHero = () => {
           height={158}
           className="hero__shape"
           src={HeroShape}
+          alt="Shape Image"
+        />
+
+<Image
+          priority
+           width={38}
+          height={49}
+          className="hero__shape-3"
+          src={HeroShape3}
           alt="Shape Image"
         />
       </section>

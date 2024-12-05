@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
 import HeroShape from "../../../public/assets/imgs/hero/4/Ellipse 2.png";
+import HeroShape3 from "../../../public/assets/imgs/hero/4/star-yellow.png";
 
 import Link from "next/link.js";
 
@@ -128,6 +129,15 @@ const StartupAgencyHero = () => {
           height={158}
           className="hero__shape"
           src={HeroShape}
+          alt="Shape Image"
+        />
+
+<Image
+          priority
+           width={38}
+          height={49}
+          className="hero__shape-3"
+          src={HeroShape3}
           alt="Shape Image"
         />
       </section>

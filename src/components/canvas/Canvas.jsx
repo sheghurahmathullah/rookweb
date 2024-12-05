@@ -2,7 +2,7 @@ import { faMagnifyingGlass, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import logoWhite2 from "../../../public/assets/imgs/rook/rook-logo.webp";
+import logoWhite2 from "../../../public/assets/imgs/rook/rook-white.png";
 import Shape11 from "../../../public/assets/imgs/shape/11.webp";
 import Shape12 from "../../../public/assets/imgs/shape/12.webp";
 import Image from "next/image";
@@ -139,20 +139,32 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                         }
                         >
                         <li>
-                          <Link href={"/service/development"}>
-                            Software Development
+                          <Link href={"/service/marketing"}>
+                            Digital Marketing
                           </Link>
                         </li>
                         {/* <li>
                           <Link href={"/service/consultancy"}>Consultancy</Link>
                         </li> */}
                         <li>
-                          <Link href={"/service/marketing"}>
-                            Digital Marketing
+                          <Link href={"/service/seo"}>
+                           SEO
                           </Link>
                         </li>
                         <li>
-                          <Link href={"/service/designing"}>Designing</Link>
+                          <Link href={"/service/metaads"}>MetaAds</Link>
+                        </li>
+                        <li>
+                          <Link href={"/service/smm"}>Social Media Management</Link>
+                        </li>
+                        <li>
+                          <Link href={"/service/emailmarketing"}>Email Marketing</Link>
+                        </li>
+                        <li>
+                          <Link href={"/service/gtmstartegy"}>GTM Startegy</Link>
+                        </li>
+                        <li>
+                          <Link href={"/service/leadnurturing"}>Lead Nurturing</Link>
                         </li>
                       </ul>
                           </>
@@ -166,12 +178,12 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                         </li>
                   <li>
                     <div className="header_title">
-                      <Link href={"https://rookhq.com/about"}>Who We Are?</Link>
+                      <Link href={"https://rookhq.com/about"}>Rook For Startups</Link>
                     </div>
                   </li>
                   <li>
                     <div className="header_title">
-                      <Link href={"/portfolio"}>Success Stories</Link>
+                      <Link href={"/portfolio"}>Rook For Business</Link>
                     </div>
                   </li>
                   <li>
@@ -179,7 +191,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                       {path == "/domains" ? (
                         <Link href={"/"}>ROOK FELLOWS</Link>
                       ) : (
-                        <Link href={"/domains"}>Rook Fellows Domains</Link>
+                        <Link href={"/domains"}>Success Stories</Link>
                       )}
                     </div>
                   </li>

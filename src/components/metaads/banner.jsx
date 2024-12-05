@@ -1,7 +1,8 @@
-import { useEffect, useRef, useState} from "react";
+import { useEffect, useRef,useState } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
 import HeroShape from "../../../public/assets/imgs/hero/4/Ellipse 1.png";
+import HeroShape3 from "../../../public/assets/imgs/hero/4/star-blue.png";
 
 import Link from "next/link.js";
 
@@ -65,7 +66,7 @@ const StartupAgencyHero = () => {
   }, []);
   return (
     <>
-      <section className="hero__area-6 ">
+      <section className="hero__area-6 pb-130">
         <div className="container g-0 line_4">
           <div className="line-col-4">
             <div></div>
@@ -79,7 +80,7 @@ const StartupAgencyHero = () => {
               <div className="hero__content-6 hero__six_anim">
               
                 <h1 className="hero__title-6 " ref={heroTitle} style={{fontSize: "clamp(30px, 8vw, 100px)"}}>
-                Meta Ads{" "}
+                Meta <br /> Ads{" "}
                 </h1>
                 <p ref={heroText} style={{fontSize:"20px"}}> 
                <strong>Make every click count with Facebook ads that convert.</strong> <br />
@@ -106,7 +107,7 @@ const StartupAgencyHero = () => {
   </div>
   <style jsx>{`
     .heroPadding {
-      padding-top: 185px;
+      padding-top: 285px;
       transition: '0.1s ease-in-out'
     }
     @media (max-width: 768px) {
@@ -124,6 +125,15 @@ const StartupAgencyHero = () => {
           height={158}
           className="hero__shape"
           src={HeroShape}
+          alt="Shape Image"
+        />
+        
+        <Image
+          priority
+           width={38}
+          height={49}
+          className="hero__shape-3"
+          src={HeroShape3}
           alt="Shape Image"
         />
       </section>

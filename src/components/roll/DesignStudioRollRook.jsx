@@ -169,11 +169,7 @@ const DesignStudioRoll = () => {
             dir="rtl"
           >
           
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Prototyping</h2>
-              </div>
-            </SwiperSlide>
+           
             <SwiperSlide>
               <div className="roll__slide">
                 <h2>Efficiency</h2>
@@ -214,11 +210,7 @@ const DesignStudioRoll = () => {
                 <h2>Interface</h2>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Decentralized</h2>
-              </div>
-            </SwiperSlide>
+          
             <SwiperSlide>
               <div className="roll__slide">
                 <h2>Optimize</h2>
@@ -229,36 +221,20 @@ const DesignStudioRoll = () => {
                 <h2>Content</h2>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Security</h2>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Commerce</h2>
-              </div>
-            </SwiperSlide>
+            
+            
             <SwiperSlide>
               <div className="roll__slide">
                 <h2>Adaptability</h2>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>IPR Services</h2>
-              </div>
-            </SwiperSlide>
+           
             <SwiperSlide>
               <div className="roll__slide">
                 <h2>Infrastructure</h2>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Serverless</h2>
-              </div>
-            </SwiperSlide>
+         
             <SwiperSlide>
               <div className="roll__slide">
                 <h2>Progress</h2>

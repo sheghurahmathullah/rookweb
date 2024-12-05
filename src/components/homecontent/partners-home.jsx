@@ -1,11 +1,15 @@
 import { useEffect,useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
-import Brand1 from "../../../public/assets/imgs/Clients&Partners/newclients/CEC.png";
-import Brand2 from "../../../public/assets/imgs/Clients&Partners/newclients/2.png";
-import Brand3 from "../../../public/assets/imgs/Clients&Partners/newclients/3.png";
-import Brand4 from "../../../public/assets/imgs/Clients&Partners/newclients/4.png";
-import Brand5 from "../../../public/assets/imgs/Clients&Partners/newclients/5.png";
+import Brand1 from "../../../public/assets/imgs/Clients&Partners/myprobuddy.png";
+import Brand2 from "../../../public/assets/imgs/Clients&Partners/myprobuddy.png";
+import Brand3 from "../../../public/assets/imgs/Clients&Partners/myprobuddy.png";
+import Brand4 from "../../../public/assets/imgs/Clients&Partners/myprobuddy.png";
+import Brand5 from "../../../public/assets/imgs/Clients&Partners/myprobuddy.png";
+// import Brand2 from "../../../public/assets/imgs/Clients&Partners/newclients/2.png";
+// import Brand3 from "../../../public/assets/imgs/Clients&Partners/newclients/3.png";
+// import Brand4 from "../../../public/assets/imgs/Clients&Partners/newclients/4.png";
+// import Brand5 from "../../../public/assets/imgs/Clients&Partners/newclients/5.png";
 // import Brand6 from "../../../public/assets/imgs/Clients&Partners/newclients/Group 251.png";
 import Image from "next/image";
 
@@ -74,7 +78,7 @@ const DigitalAgencyBrand = () => {
               </div>
             </div>
 
-            <div className="col-xxl-12">
+            <div className="col-xxl-12 " style={{backgroundColor:"#F5F5DC",zIndex:"10"}}>
               <div className="brand__list">
               <div
       className="brand__item fade_bottom"

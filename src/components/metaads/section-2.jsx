@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Image from "next/image";
@@ -51,16 +51,61 @@ const ModernAgencyBrand = () => {
       return () => tHero.revert();
     }
   }, []);
+
+  const [theme, setTheme] = useState();
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const bodyElement = document.querySelector("body");
+
+      // Function to update theme based on body class
+      const updateTheme = () => {
+        if (bodyElement.classList.contains("dark")) {
+          setTheme("dark");
+        } else {
+          setTheme("light");
+        }
+      };
+
+      // Call updateTheme initially
+      updateTheme();
+
+      // Set up a MutationObserver to watch for class changes
+      const observer = new MutationObserver(() => {
+        updateTheme();
+      });
+
+      observer.observe(bodyElement, {
+        attributes: true, // Watch for attribute changes
+        attributeFilter: ["class"], // Specifically watch the 'class' attribute
+      });
+
+      // Cleanup observer on component unmount
+      return () => observer.disconnect();
+    }
+  }, []);
+
+
+  const themestyle = () => ({
+    background: theme === "light" ? "#ffff" : "",
+  });
+
+  const fontstyle = () => ({
+    background: theme === "light" ? "#ffff" : "",
+    color: theme === "light" ? "#000" : "#fff",
+  });
+
+
   return (
-    <div className="client__area-8 sp-x mt-5">
+    <div className="client__area-8 sp-x mt-5 pb-0" style={themestyle()}>
       <h6 className="text-end about-sub-right"></h6>
       <div className="section_wrapper">
-        <h4 className="react_border">
-          <span>02</span>
+        <h4 className="react_border" style={fontstyle()}>
+          <span style={fontstyle()}>02</span>
         </h4>
       </div>
-      <div className="client__section">
-      <h2 className="client__section__title fade_bottom_5">
+      <div className="client__section" style={fontstyle()}>
+      <h2 className="client__section__title fade_bottom_5" style={fontstyle()}>
   <span>What makes Facebook ads<br /> such a valuable</span> <br />
    <span style={{ color: "#0096d4",fontWeight:"bold" }}>Marketing Tool?</span>
 </h2>

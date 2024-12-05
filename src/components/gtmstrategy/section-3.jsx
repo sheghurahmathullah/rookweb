@@ -112,7 +112,7 @@ const StartupAgencyService = () => {
               <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-6" style={{ marginTop}}>
                 <div className="service__list-4">
                   <div className="service__item-4 fade_bottom_2">
-                    <div className="service__item-number" style={{color:"#ffd800"}}>
+                    <div className="service__item-number" style={{color:"#808080"}}>
                       <span>01</span>
                     </div>
                     <div className="service__title-wrapper-4">
@@ -131,7 +131,7 @@ const StartupAgencyService = () => {
                    
                   </div>
                   <div className="service__item-4 fade_bottom_2">
-                    <div className="service__item-number" style={{color:"#ffd800"}}>
+                    <div className="service__item-number" style={{color:"#808080"}}>
                       <span>02</span>
                     </div>
                     <div className="service__title-wrapper-4">
@@ -148,7 +148,7 @@ const StartupAgencyService = () => {
                    
                   </div>
                   <div className="service__item-4 fade_bottom_2">
-                    <div className="service__item-number" style={{color:"#ffd800"}}>
+                    <div className="service__item-number" style={{color:"#808080"}}>
                       <span>03</span>
                     </div>
                     <div className="service__title-wrapper-4">
@@ -165,7 +165,7 @@ const StartupAgencyService = () => {
                    
                   </div>
                   <div className="service__item-4 fade_bottom_2">
-                    <div className="service__item-number" style={{color:"#ffd800"}}>
+                    <div className="service__item-number" style={{color:"#808080"}}>
                       <span>04</span>
                     </div>
                     <div className="service__title-wrapper-4">

@@ -18,7 +18,7 @@ const DigitalMarketingService = () => {
   <h2 className="sec-sub-title title-anim" >Lead Nurturing Automation</h2>
   <h3 className="sec-title title-anim">
     
-  <span className="highlight-text" style={{color:'#00d437'}}> Build Relationships</span> <br /> Not Just Pipelines
+  <span className="highlight-text" style={{color:'#0096d4'}}> Build Relationships</span> <br /> Not Just Pipelines
 </h3>
   <p className="custom-paragraph text-justify w-75">
   Many marketers struggle to keep leads engaged long enough to convert—usually because their messaging isn’t timely or relevant. Think about it: how many times have you signed up for something and then received irrelevant or poorly timed follow-ups? <strong>It’s easy to lose interest.</strong>
@@ -48,7 +48,7 @@ const DigitalMarketingService = () => {
                 <div className="service__item-3 service_animation">
                     
                   <h3>
-                    <Link href="/service-details" className="service__title-3 " style={{color:'#00d437'}}>
+                    <Link href="/service-details" className="service__title-3 ">
                     Seamless <br /> Campaigns, <br /> Zero Hassle
                     </Link>
                   </h3>
@@ -86,7 +86,7 @@ const DigitalMarketingService = () => {
                 <div className="service__item-3 service_animation">
                     
                   <h3>
-                    <Link href="/service-details" className="service__title-3 " style={{color:'#00d437'}}>
+                    <Link href="/service-details" className="service__title-3 ">
                     	Personalized  <br />  At Scale, Effortlessly
                     </Link>
                   </h3>

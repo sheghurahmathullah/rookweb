@@ -4,8 +4,8 @@ import { SplitText } from "@/plugins";
 import HeroShape from "../../../public/assets/imgs/hero/4/Ellipse 2.png";
 // import ArrowIcon from "../../../public/assets/imgs/hero/4/arrow-icon.webp";
 // import Hero4 from "../../../public/assets/imgs/hero/4/hero-4.png";
-import HeroShape2 from "../../../public/assets/imgs/hero/4/hero-shape-2.webp";
-import HeroShape3 from "../../../public/assets/imgs/hero/4/hero-shape-3.webp";
+// import HeroShape2 from "../../../public/assets/imgs/hero/4/hero-shape-2.webp";
+import HeroShape3 from "../../../public/assets/imgs/hero/4/star-yellow.png";
 
 import Link from "next/link.js";
 
@@ -139,14 +139,14 @@ const StartupAgencyHero = () => {
           alt="Shape Image"
         />
 
-<Image
+{/* <Image
           priority
            width={48}
           height={48}
           className="hero__shape-2"
           src={HeroShape2}
           alt="Shape Image"
-        />
+        /> */}
 
 <Image
           priority

@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect,useState} from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger, ScrollSmoother } from "@/plugins";
 import Link from "next/link";
@@ -35,20 +35,63 @@ const DesignStudioAbout = () => {
     }
   }, []);
 
+
+  const [theme, setTheme] = useState();
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const bodyElement = document.querySelector("body");
+
+      // Function to update theme based on body class
+      const updateTheme = () => {
+        if (bodyElement.classList.contains("dark")) {
+          setTheme("dark");
+        } else {
+          setTheme("light");
+        }
+      };
+
+      // Call updateTheme initially
+      updateTheme();
+
+      // Set up a MutationObserver to watch for class changes
+      const observer = new MutationObserver(() => {
+        updateTheme();
+      });
+
+      observer.observe(bodyElement, {
+        attributes: true, // Watch for attribute changes
+        attributeFilter: ["class"], // Specifically watch the 'class' attribute
+      });
+
+      // Cleanup observer on component unmount
+      return () => observer.disconnect();
+    }
+  }, []);
+
+
+  const themestyle = () => ({
+    background: theme === "light" ? "#ffff" : "",
+  });
+
+  const fontstyle = () => ({
+    background: theme === "light" ? "#ffff" : "",
+    color: theme === "light" ? "#000" : "#fff",
+  });
   return (
     <>
-      <section className="about__area-2">
+      <section className="about__area-2" style={themestyle()}>
         <div className="container pt-130 pb-110">
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
-                <h2 className="sec-title title-anim">
+                <h2 className="sec-title title-anim" style={fontstyle()}>
                   SEO success is like decoding a secret map—follow the right
                   steps, and you’ll hit the jackpot.
                 </h2>
               </div>
               <div className="sec-text-wrapper">
-                <div className="sec-text text-anim text-justify">
+                <div className="sec-text text-anim text-justify" style={fontstyle()}>
                   <p>
                     <strong>The SEO landscape is constantly evolving, offering huge
                     potential—but how do you know where to focus your efforts?</strong> <br /> 
