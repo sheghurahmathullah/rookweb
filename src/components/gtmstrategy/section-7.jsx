@@ -3,7 +3,7 @@ import animationWordCome from "@/lib/utils/animationWordCome";
 import { useEffect, useRef, useState } from "react";
 
 const Contact1 = () => {
-  const [bgColor, setBgColor] = useState("#ffd800");
+  const [bgColor, setBgColor] = useState("");
   const charAnim = useRef();
   const wordAnim = useRef();
   useEffect(() => {
@@ -119,7 +119,7 @@ const Contact1 = () => {
                         <button
                           className="wc-btn-primary "
                           onMouseEnter={() => setBgColor("#ffd800")}
-                          onMouseLeave={() => setBgColor("black")}
+                          onMouseLeave={() => setBgColor("")}
                           style={{
                             border: "2px solid #ffd800",
                             backgroundColor: bgColor,

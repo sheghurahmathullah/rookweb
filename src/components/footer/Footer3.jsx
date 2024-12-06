@@ -125,14 +125,14 @@ export default function Footer3(
 
                   <div className="footer__widget-2" style={{width:"300px"}} >
                     <h2 className="footer__widget-title">Terms and Conditions</h2>
-                    <ul className="footer__contact">
+                    {/* <ul className="footer__contact">
                       <li>© All Rights Reserved 2020 - 2024 <br /><strong>Rook Ecom Private Limited</strong></li>
                       
                      
                       <li>
                       Disclaimer: All logos and trademarks belong to their respective owners.
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
 
 {/* col-5 */}
@@ -141,6 +141,18 @@ export default function Footer3(
   <ul className="footer__contact"></ul>
 </div>
 
+<hr />
+<div className="footer__copyright text-end"  style={{borderTop:"1px solid #171717"}}  >
+                    <p>
+                      © All Rights Reserved 2020 - {new Date().getFullYear()}{" "}
+                      <a href="https://rookhq.com/" target="_blank">
+                        Rook Ecom Private Limited
+                      </a> 
+                    </p>
+                    {/* <p>
+                    Disclaimer: All logos and trademarks belong to their respective owners.
+                    </p> */}
+                  </div>
                  
                 </div>
               </div>

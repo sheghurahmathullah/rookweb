@@ -219,7 +219,7 @@ const DigitalMarketingWorkflow = () => {
       <div className="col-xxl-6 col-xl-6 col-lg-6 pt-5">
         <div className="image-wrapper">
           <img 
-            src="/assets/imgs/digitalmarketing/step-3.jpg" 
+            src="/assets/imgs/digitalmarketing/step-3.jpeg" 
             alt="Campaign Execution & Promotion" 
             style={{ width: "100%", height: "300px", borderRadius: "8px" }} // Adjust as needed
           />

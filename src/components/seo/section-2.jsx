@@ -8,6 +8,7 @@ import Image from "next/image";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 const DesignStudioAbout = () => {
+  const [bgColor, setBgColor] = useState("");
   useEffect(() => {
     if (typeof window !== "undefined") {
       let device_width = window.innerWidth;
@@ -98,16 +99,20 @@ const DesignStudioAbout = () => {
                     That’s where we come in. We identify the key data points that matter, manage your SEO strategy, and handle the technical details. Our experts create a data-driven plan, then continuously optimize to boost your rankings and traffic.
                   </p>
                 </div>
-                <div className="sec-btn btn_wrapper">
-                  <Link
-                    className="wc-btn-pink btn-hover btn-item"
-                    style={{border:"2px solid #0096d4"}}
-                    href="/about"
-                  >
-                    <span></span> Get   <br />
-                    Started<i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                </div>
+                <div className="btn_wrapper">
+                        <button
+                          className="wc-btn-primary "
+                          onMouseEnter={() => setBgColor("#ffd800")}
+                          onMouseLeave={() => setBgColor("")}
+                          style={{
+                            border: "2px solid #ffd800",
+                            backgroundColor: bgColor,
+                          }}
+                        >
+                          <span></span> Get <br />
+                          Started <i className="fa-solid fa-arrow-right"></i>
+                        </button>
+                      </div>
               </div>
             </div>
           </div>

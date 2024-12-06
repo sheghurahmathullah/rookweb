@@ -1,11 +1,14 @@
 import { useEffect,useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
-import Brand1 from "../../../public/assets/imgs/Clients&Partners/newclients/1.png";
-import Brand2 from "../../../public/assets/imgs/Clients&Partners/newclients/2.png";
-import Brand3 from "../../../public/assets/imgs/Clients&Partners/newclients/3.png";
-import Brand4 from "../../../public/assets/imgs/Clients&Partners/newclients/4.png";
-import Brand5 from "../../../public/assets/imgs/Clients&Partners/newclients/5.png";
+import Brand2 from "../../../public/assets/imgs/Clients&Partners/myprobuddy.png";
+import Brand3 from "../../../public/assets/imgs/Clients&Partners/myprobuddy.png";
+import Brand4 from "../../../public/assets/imgs/Clients&Partners/myprobuddy.png";
+import Brand5 from "../../../public/assets/imgs/Clients&Partners/myprobuddy.png";
+// import Brand2 from "../../../public/assets/imgs/Clients&Partners/newclients/2.png";
+// import Brand3 from "../../../public/assets/imgs/Clients&Partners/newclients/3.png";
+// import Brand4 from "../../../public/assets/imgs/Clients&Partners/newclients/4.png";
+// import Brand5 from "../../../public/assets/imgs/Clients&Partners/newclients/5.png";
 // import Brand6 from "../../../public/assets/imgs/Clients&Partners/newclients/Group 251.png";
 import Image from "next/image";
 
@@ -61,10 +64,54 @@ const DigitalAgencyBrand = () => {
       return () => tHero.revert();
     }
   }, []);
+
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const bodyElement = document.querySelector("body");
+
+      // Function to update theme based on body class
+      const updateTheme = () => {
+        if (bodyElement.classList.contains("dark")) {
+          setTheme("dark");
+        } else {
+          setTheme("light");
+        }
+      };
+
+      // Call updateTheme initially
+      updateTheme();
+
+      // Set up a MutationObserver to watch for class changes
+      const observer = new MutationObserver(() => {
+        updateTheme();
+      });
+
+      observer.observe(bodyElement, {
+        attributes: true, // Watch for attribute changes
+        attributeFilter: ["class"], // Specifically watch the 'class' attribute
+      });
+
+      // Cleanup observer on component unmount
+      return () => observer.disconnect();
+    }
+  }, []);
+
+  const [theme, setTheme] = useState();
+
+  const imageStyle = () => ({
+    background: theme === "light" 
+      ? "url('../../../public/assets/imgs/Clients&Partners/newclients/4-1.png') no-repeat center center/cover"
+      : "url('../../../public/assets/imgs/Clients&Partners/myprobuddy.png') no-repeat center center/cover",
+   
+  });
+
+
+
   return (
     <>
       <section className="brand__area">
-        <div className="container g-0 line pb-130 pt-130">
+        <div className="container g-0 line pt-1 pb-130">
           <span className="line-3"></span>
           <div className="row">
             <div className="col-xxl-12">
@@ -74,7 +121,7 @@ const DigitalAgencyBrand = () => {
               </div>
             </div>
 
-            <div className="col-xxl-12">
+            <div className="col-xxl-12 ">
               <div className="brand__list">
               <div
       className="brand__item fade_bottom"
@@ -88,13 +135,19 @@ const DigitalAgencyBrand = () => {
       }}
     >
       <Image
-        priority
-        width={250}
-        height={127}
-        src={Brand1}
-        style={{borderRadius:"5px"}}
-        alt="Brand Logo"
-      />
+  priority
+  width={250}
+  height={127}
+  style={{
+    borderRadius: "5px",
+  }}
+  src={
+    theme === "light"
+      ? "/assets/imgs/Clients&Partners/clients/icm-dark.png"
+      : "/assets/imgs/Clients&Partners/clients/icm-light.png"
+  }
+  alt="Brand Logo"
+/>
     </div>
   
 
@@ -108,14 +161,20 @@ const DigitalAgencyBrand = () => {
         transform: isHovered2 ? "scale(1.1)" : "scale(1)", // Scale up on hover
       }}
     >
-      <Image
-        priority
-        width={250}
-        height={127}
-        src={Brand2}
-        style={{borderRadius:"5px"}}
-        alt="Brand Logo"
-      />
+        <Image
+  priority
+  width={250}
+  height={127}
+  style={{
+    borderRadius: "5px",
+  }}
+  src={
+    theme === "light"
+      ? "/assets/imgs/Clients&Partners/clients/finequs-dark.png"
+      : "/assets/imgs/Clients&Partners/clients/finequs-light.png"
+  }
+  alt="Brand Logo"
+/>
     </div>
     <div
     
@@ -128,14 +187,20 @@ const DigitalAgencyBrand = () => {
         transform: isHovered3 ? "scale(1.2)" : "scale(1)", // Scale up on hover
       }}
     >
-      <Image
-        priority
-        width={250}
-        height={127}
-        style={{borderRadius:"5px"}}
-        src={Brand3}
-        alt="Brand Logo"
-      />
+         <Image
+  priority
+  width={250}
+  height={127}
+  style={{
+    borderRadius: "5px",
+  }}
+  src={
+    theme === "light"
+       ? "/assets/imgs/Clients&Partners/clients/intonate-dark.png"
+      : "/assets/imgs/Clients&Partners/clients/intonate-light.png"
+  }
+  alt="Brand Logo"
+/>
     </div>
     <div 
       className="brand__item fade_bottom"
@@ -147,14 +212,20 @@ const DigitalAgencyBrand = () => {
         transform: isHovered4 ? "scale(1.1)" : "scale(1)", // Scale up on hover
       }}
     >
-      <Image
-        priority
-        width={250}
-        height={127}
-        style={{borderRadius:"5px"}}
-        src={Brand4}
-        alt="Brand Logo"
-      />
+       <Image
+  priority
+  width={250}
+  height={127}
+  style={{
+    borderRadius: "5px",
+  }}
+  src={
+    theme === "light"
+      ? "/assets/imgs/Clients&Partners/clients/dsp-dark.png"
+      : "/assets/imgs/Clients&Partners/clients/dsp-light.png"
+  }
+  alt="Brand Logo"
+/>
     </div>
     <div
       className="brand__item fade_bottom"
@@ -167,14 +238,20 @@ const DigitalAgencyBrand = () => {
         transform: isHovered5 ? "scale(1.1)" : "scale(1)", // Scale up on hover
       }}
     >
-      <Image
-        priority
-        width={250}
-        height={127}
-        src={Brand5}
-        style={{borderRadius:"5px"}}
-        alt="Brand Logo"
-      />
+       <Image
+  priority
+  width={250}
+  height={127}
+  style={{
+    borderRadius: "5px",
+  }}
+  src={
+    theme === "light"
+           ? "/assets/imgs/Clients&Partners/clients/capital-dark.png"
+      : "/assets/imgs/Clients&Partners/clients/capital-light.png"
+  }
+  alt="Brand Logo"
+/>
     </div>
     {/* <div
       className="brand__item fade_bottom"

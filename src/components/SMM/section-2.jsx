@@ -8,6 +8,7 @@ import Image from "next/image";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 const DesignStudioAbout = () => {
+   const [bgColor, setBgColor] = useState("");
   useEffect(() => {
     if (typeof window !== "undefined") {
       let device_width = window.innerWidth;
@@ -101,16 +102,20 @@ const DesignStudioAbout = () => {
                   In the ever-shifting world of social media, knowing where to focus your efforts can feel like navigating a maze. That’s where we come in. We take the guesswork out of the equation, finding the perfect mix of strategies that will propel your brand forward. From crafting a visionary plan to executing with precision, we manage every detail, constantly refining and adapting to keep you ahead of the trends and deeply connected with the right audience.
                   </p>
                 </div>
-                <div className="sec-btn btn_wrapper">
-                  <Link
-                    className="wc-btn-pink btn-hover btn-item"
-                    style={{border:"2px solid #0096d4"}}
-                    href="/about"
-                  >
-                    <span></span> Book a free   <br />
-                    Consultation<i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                </div>
+                <div className="btn_wrapper">
+                        <button
+                          className="wc-btn-primary "
+                          onMouseEnter={() => setBgColor("#ffd800")}
+                          onMouseLeave={() => setBgColor("")}
+                          style={{
+                            border: "2px solid #ffd800",
+                            backgroundColor: bgColor,
+                          }}
+                        >
+                          <span></span> Book A Free <br />
+                          Consultation <i className="fa-solid fa-arrow-right"></i>
+                        </button>
+                      </div>
               </div>
             </div>
           </div>

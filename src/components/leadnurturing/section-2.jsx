@@ -20,7 +20,7 @@ const DigitalMarketingService = () => {
     
   <span className="highlight-text" style={{color:'#0096d4'}}> Build Relationships</span> <br /> Not Just Pipelines
 </h3>
-  <p className="custom-paragraph text-justify w-75">
+  <p className="custom-paragraph text-justify w-75" style={{textAlign:"justify"}}>
   Many marketers struggle to keep leads engaged long enough to convert—usually because their messaging isn’t timely or relevant. Think about it: how many times have you signed up for something and then received irrelevant or poorly timed follow-ups? <strong>It’s easy to lose interest.</strong>
   <br /> <br />
   So, how can automation help you build lasting relationships with leads? When done right, <strong>it’s a game-changer.</strong> Our specialists know how to nurture leads at the perfect moment, guiding them through their journey and turning interest into conversions with personalized, timely content that builds trust and keeps them engaged.

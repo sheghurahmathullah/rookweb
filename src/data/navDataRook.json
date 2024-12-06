@@ -26,10 +26,7 @@
           "name": "Email Marketing",
           "link": "/service/emailmarketing"
         },
-        {
-          "name": "GTM Strategy",
-          "link": "/service/gtmstrategy"
-        },
+      
         {
           "name": "Lead Nurturing",
           "link": "/service/leadnurturing"
@@ -44,7 +41,7 @@
     },
     {
       "nav_name": "Rook For Startups",
-      "link": "/portfolio",
+      "link": "/service/gtmstrategy",
       "type": "",
       "sub_nav": []
     },

@@ -10,6 +10,7 @@ import Image from "next/image";
 gsap.registerPlugin(ScrollTrigger);
 
 const ServiceElementV3 = () => {
+
   useEffect(() => {
     if (typeof window !== "undefined") {
       let device_width = window.innerWidth;
@@ -62,22 +63,39 @@ const ServiceElementV3 = () => {
     }
   }, []);
 
-  return (
-    <>
-      <section className="service__area-2 pt-130 pb-110">
-        <div className="container">
-          <div className="row">
-            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-              <div className="sec-title-wrapper">
-                <h2 className="sec-title title-anim">Sub Services</h2>
-              </div>
+
+  
+
+ // ... imports and useEffect remain the same ...
+
+ return (
+  <>
+    <section className="service__area-2 pt-130 pb-110">
+      <div className="container">
+        <div className="row">
+          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+            <div className="sec-title-wrapper">
+              <h2 className="sec-title title-anim">Sub Services</h2>
             </div>
           </div>
+        </div>
 
-          <div className="row pt-140">
-            <div className="col-xxl-12">
-              <div className="service__list-2 animation__service-2 d-flex justify-content-between">
-                <a href="/service/seo" className="service__item-2 col-lg-3 col-md-6" style={{ width: "250px" }}>
+        <div className="row pt-140">
+          <div className="col-12">
+            <div className="row g-4 animation__service-2">
+              <div className="col-lg-3 col-md-6 col-12">
+                <a 
+                  href="/service/seo" 
+                  className="service__item-2" 
+                  style={{
+                    padding: "20px",
+                    height: "100%",
+                    display: "block",
+                    border: "1px solid #2C2C2C",
+                    transition: "all 0.3s ease",
+                    textDecoration: "none"
+                  }}
+                >
                   <div>
                     <Image width={112} height={124} src={Service21} alt="Service Icon" />
                     <h3 className="service__title-2">
@@ -85,7 +103,20 @@ const ServiceElementV3 = () => {
                     </h3>
                   </div>
                 </a>
-                <a href="/service/metaads" className="service__item-2 col-lg-3 col-md-6" style={{ width: "200px" }}>
+              </div>
+              <div className="col-lg-3 col-md-6 col-12">
+                <a 
+                  href="/service/metaads" 
+                  className="service__item-2"
+                  style={{
+                    padding: "20px",
+                    height: "100%",
+                    display: "block",
+                    border: "1px solid #2C2C2C",
+                    transition: "all 0.3s ease",
+                    textDecoration: "none"
+                  }}
+                >
                   <div>
                     <Image className="pt-2" priority width={112} height={124} src={Service22} alt="Service Icon" />
                     <h3 className="service__title-2">
@@ -93,7 +124,20 @@ const ServiceElementV3 = () => {
                     </h3>
                   </div>
                 </a>
-                <a href="/service/SMM" className="service__item-2 col-lg-3 col-md-6" style={{ width: "250px",borderRight:"solid 1px #2C2C2C" }}>
+              </div>
+              <div className="col-lg-3 col-md-6 col-12">
+                <a 
+                  href="/service/SMM" 
+                  className="service__item-2"
+                  style={{
+                    padding: "20px",
+                    height: "100%",
+                    display: "block",
+                    border: "1px solid #2C2C2C",
+                    transition: "all 0.3s ease",
+                    textDecoration: "none"
+                  }}
+                >
                   <div>
                     <Image priority width={112} height={124} src={Service23} alt="Service Icon" />
                     <h3 className="service__title-2">
@@ -101,7 +145,20 @@ const ServiceElementV3 = () => {
                     </h3>
                   </div>
                 </a>
-                <a href="/service/emailmarketing" className="service__item-2 col-lg-3 col-md-6">
+              </div>
+              <div className="col-lg-3 col-md-6 col-12">
+                <a 
+                  href="/service/emailmarketing" 
+                  className="service__item-2"
+                  style={{
+                    padding: "20px",
+                    height: "100%",
+                    display: "block",
+                    border: "1px solid #2C2C2C",
+                    transition: "all 0.3s ease",
+                    textDecoration: "none"
+                  }}
+                >
                   <div>
                     <Image priority width={112} height={124} src={Service24} alt="Service Icon" />
                     <h3 className="service__title-2">
@@ -113,9 +170,10 @@ const ServiceElementV3 = () => {
             </div>
           </div>
         </div>
-      </section>
-    </>
-  );
+      </div>
+    </section>
+  </>
+);
 };
 
 export default ServiceElementV3;
